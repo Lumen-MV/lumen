@@ -1,0 +1,24 @@
+/* Tailwind v4 without preflight: the mockup CSS (src/styles/tokens.css) carries its own reset,
+   so only the theme + utility layers are imported. Utilities are layered, therefore the
+   unlayered ported mockup rules (.btn, .tag, ...) always win over any Tailwind class. */
+@import "tailwindcss/theme" layer(theme);
+@import "tailwindcss/utilities" layer(utilities);
+
+/* Design tokens mirrored from the mockup so one-off layout utilities (bg-card, text-muted, mob:) exist. */
+@theme {
+  --color-bg: #141414;
+  --color-ink: #fff;
+  --color-muted: #a3a3a3;
+  --color-dim: #777;
+  --color-red: #e50914;
+  --color-card: #1a1a1a;
+  --color-line: #303030;
+  --color-green: #46d369;
+  --color-blue: #2d6cdf;
+  --color-amber: #f59e0b;
+  --color-link: #7fb5ff;
+  --radius-DEFAULT: 4px;
+  --breakpoint-md: 900px;
+  --breakpoint-xl: 1280px;
+}
+@custom-variant mob (@media (max-width: 700px));

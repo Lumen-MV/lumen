@@ -1,0 +1,1216 @@
+{
+  "_doc": "One entry per mockup state. `page`+`state` name the mockup (spikes/web-mockup/<page>.html?state=<state>&bare=1) and the output qa/real-<page>-<state>[-m].png. `as`: who must be logged in (null | admin | member). `setup`: dev fixture(s) applied first. `scenario`: lumen_scenario flags. The interaction for each state lives in scripts/shoot-states.mjs ROUTINES[state]. Later phases append entries.",
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 900
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "states": [
+    {
+      "page": "login",
+      "state": "login",
+      "url": "/login",
+      "as": null
+    },
+    {
+      "page": "login",
+      "state": "login-filled",
+      "url": "/login",
+      "as": null
+    },
+    {
+      "page": "login",
+      "state": "login-loading",
+      "url": "/login",
+      "as": null
+    },
+    {
+      "page": "login",
+      "state": "login-wrong",
+      "url": "/login",
+      "as": null
+    },
+    {
+      "page": "login",
+      "state": "login-locked",
+      "url": "/login",
+      "as": null,
+      "setup": [
+        "user:khang-disabled"
+      ]
+    },
+    {
+      "page": "login",
+      "state": "login-rate",
+      "url": "/login",
+      "as": null,
+      "setup": [
+        "reset-rate-limit"
+      ]
+    },
+    {
+      "page": "login",
+      "state": "login-offline",
+      "url": "/login",
+      "as": null
+    },
+    {
+      "page": "login",
+      "state": "invite",
+      "url": "/invite/{validToken}",
+      "as": null,
+      "setup": [
+        "delete-user:bao",
+        "invite:valid"
+      ]
+    },
+    {
+      "page": "login",
+      "state": "invite-filled",
+      "url": "/invite/{validToken}",
+      "as": null
+    },
+    {
+      "page": "login",
+      "state": "invite-taken",
+      "url": "/invite/{validToken}",
+      "as": null,
+      "setup": [
+        "user:owner"
+      ]
+    },
+    {
+      "page": "login",
+      "state": "invite-weak",
+      "url": "/invite/{validToken}",
+      "as": null
+    },
+    {
+      "page": "login",
+      "state": "invite-loading",
+      "url": "/invite/{validToken}",
+      "as": null
+    },
+    {
+      "page": "login",
+      "state": "onboard-1",
+      "url": "/",
+      "as": "member"
+    },
+    {
+      "page": "login",
+      "state": "onboard-2",
+      "url": "/",
+      "as": "member"
+    },
+    {
+      "page": "login",
+      "state": "onboard-3",
+      "url": "/",
+      "as": "member"
+    },
+    {
+      "page": "global",
+      "state": "403",
+      "url": "/admin",
+      "as": "member"
+    },
+    {
+      "page": "login",
+      "state": "invite-used",
+      "url": "/invite/{validToken}",
+      "as": null
+    },
+    {
+      "page": "login",
+      "state": "invite-expired",
+      "url": "/invite/{expiredToken}",
+      "as": null,
+      "setup": [
+        "invite:expired"
+      ]
+    },
+    {
+      "page": "login",
+      "state": "invite-invalid",
+      "url": "/invite/{invalidToken}",
+      "as": null
+    },
+    {
+      "page": "global",
+      "state": "buttons",
+      "url": "/dev/ui?state=buttons",
+      "as": "admin"
+    },
+    {
+      "page": "global",
+      "state": "toasts",
+      "url": "/dev/ui?state=toasts",
+      "as": "admin"
+    },
+    {
+      "page": "global",
+      "state": "dialog-confirm",
+      "url": "/dev/ui?state=dialog-confirm",
+      "as": "admin"
+    },
+    {
+      "page": "global",
+      "state": "dialog-danger",
+      "url": "/dev/ui?state=dialog-danger",
+      "as": "admin"
+    },
+    {
+      "page": "global",
+      "state": "offline",
+      "url": "/dev/ui?state=offline",
+      "as": "admin",
+      "scenario": [
+        "offline"
+      ]
+    },
+    {
+      "page": "global",
+      "state": "kbd-help",
+      "url": "/dev/ui?state=kbd-help",
+      "as": "admin"
+    },
+    {
+      "page": "global",
+      "state": "404",
+      "url": "/khong-ton-tai",
+      "as": "admin"
+    },
+    {
+      "page": "index",
+      "state": "first-time",
+      "url": "/",
+      "as": "admin",
+      "setup": [
+        "clear-user-media"
+      ]
+    },
+    {
+      "page": "index",
+      "state": "loading",
+      "url": "/",
+      "as": "admin",
+      "scenario": [
+        "slow-net"
+      ]
+    },
+    {
+      "page": "index",
+      "state": "error",
+      "url": "/",
+      "as": "admin",
+      "scenario": [
+        "tmdb-down"
+      ]
+    },
+    {
+      "page": "index",
+      "state": "row-error",
+      "url": "/",
+      "as": "admin",
+      "scenario": [
+        "tmdb-row-down"
+      ]
+    },
+    {
+      "page": "index",
+      "state": "hover",
+      "url": "/",
+      "as": "admin"
+    },
+    {
+      "page": "index",
+      "state": "saved",
+      "url": "/",
+      "as": "admin",
+      "setup": [
+        "clear-user-media"
+      ]
+    },
+    {
+      "page": "index",
+      "state": "notifications",
+      "url": "/",
+      "as": "admin",
+      "setup": [
+        "notifications",
+        "clear-user-media"
+      ]
+    },
+    {
+      "page": "index",
+      "state": "search",
+      "url": "/",
+      "as": "admin"
+    },
+    {
+      "page": "index",
+      "state": "search-empty",
+      "url": "/",
+      "as": "admin"
+    },
+    {
+      "page": "index",
+      "state": "search-recent",
+      "url": "/",
+      "as": "admin"
+    },
+    {
+      "page": "index",
+      "state": "search-loading",
+      "url": "/",
+      "as": "admin"
+    },
+    {
+      "page": "browse",
+      "state": "default",
+      "url": "/movies",
+      "as": "admin"
+    },
+    {
+      "page": "browse",
+      "state": "loading",
+      "url": "/movies",
+      "as": "admin",
+      "scenario": [
+        "slow-net"
+      ]
+    },
+    {
+      "page": "browse",
+      "state": "year-open",
+      "url": "/movies",
+      "as": "admin"
+    },
+    {
+      "page": "browse",
+      "state": "genre-open",
+      "url": "/movies?genre=16,10751",
+      "as": "admin"
+    },
+    {
+      "page": "browse",
+      "state": "empty",
+      "url": "/movies?genre=16,37,10752,27&cached=1",
+      "as": "admin"
+    },
+    {
+      "page": "browse",
+      "state": "loading-more",
+      "url": "/movies",
+      "as": "admin"
+    },
+    {
+      "page": "browse",
+      "state": "end",
+      "url": "/movies?year=2020s&genre=37",
+      "as": "admin"
+    },
+    {
+      "page": "browse",
+      "state": "error",
+      "url": "/movies",
+      "as": "admin",
+      "scenario": [
+        "tmdb-down"
+      ]
+    },
+    {
+      "page": "browse",
+      "state": "filter-sheet",
+      "url": "/movies?genre=16,10751&cached=1",
+      "as": "admin"
+    },
+    {
+      "page": "search",
+      "state": "default",
+      "url": "/search?q=spider",
+      "as": "admin"
+    },
+    {
+      "page": "search",
+      "state": "empty",
+      "url": "/search?q=phim%20gi%20do",
+      "as": "admin"
+    },
+    {
+      "page": "search",
+      "state": "short-query",
+      "url": "/search?q=s",
+      "as": "admin"
+    },
+    {
+      "page": "detail",
+      "state": "skeleton",
+      "url": "/movie/634649",
+      "as": "admin",
+      "scenario": [
+        "slow-net"
+      ]
+    },
+    {
+      "page": "detail",
+      "state": "overview-en",
+      "url": "/movie/{enMovieId}",
+      "as": "admin"
+    },
+    {
+      "page": "detail",
+      "state": "trailer",
+      "url": "/movie/634649",
+      "as": "admin"
+    },
+    {
+      "page": "series",
+      "state": "season-open",
+      "url": "/series/66732?s=4",
+      "as": "admin"
+    },
+    {
+      "page": "series",
+      "state": "loading",
+      "url": "/series/66732?s=4",
+      "as": "admin"
+    },
+    {
+      "page": "series",
+      "state": "empty",
+      "url": "/series/66732?s=4",
+      "as": "admin"
+    },
+    {
+      "page": "detail",
+      "state": "cached",
+      "url": "/movie/634649",
+      "as": "admin",
+      "setup": [
+        "clear-cloud-jobs"
+      ]
+    },
+    {
+      "page": "detail",
+      "state": "uncached",
+      "url": "/movie/634649",
+      "as": "admin",
+      "scenario": [
+        "all-uncached"
+      ]
+    },
+    {
+      "page": "detail",
+      "state": "app-only",
+      "url": "/movie/634649",
+      "as": "admin"
+    },
+    {
+      "page": "detail",
+      "state": "loading",
+      "url": "/movie/634649",
+      "as": "admin"
+    },
+    {
+      "page": "detail",
+      "state": "no-sources",
+      "url": "/movie/634649",
+      "as": "admin"
+    },
+    {
+      "page": "detail",
+      "state": "picker",
+      "url": "/movie/634649",
+      "as": "admin"
+    },
+    {
+      "page": "detail",
+      "state": "picker-4k",
+      "url": "/movie/634649",
+      "as": "admin"
+    },
+    {
+      "page": "detail",
+      "state": "picker-uncached",
+      "url": "/movie/634649",
+      "as": "admin",
+      "scenario": [
+        "all-uncached"
+      ]
+    },
+    {
+      "page": "detail",
+      "state": "picker-progress",
+      "url": "/movie/634649",
+      "as": "admin",
+      "setup": [
+        "cloud-jobs:picker-progress"
+      ],
+      "scenario": [
+        "all-uncached",
+        "cloud-sim=downloading:73"
+      ]
+    },
+    {
+      "page": "detail",
+      "state": "picker-cancel",
+      "url": "/movie/634649",
+      "as": "admin",
+      "setup": [
+        "cloud-jobs:picker-progress"
+      ],
+      "scenario": [
+        "all-uncached",
+        "cloud-sim=downloading:73"
+      ]
+    },
+    {
+      "page": "detail",
+      "state": "picker-torbox-down",
+      "url": "/movie/634649",
+      "as": "admin",
+      "setup": [
+        "clear-cloud-jobs"
+      ],
+      "scenario": [
+        "torbox-down"
+      ]
+    },
+    {
+      "page": "detail",
+      "state": "picker-empty",
+      "url": "/movie/634649",
+      "as": "admin"
+    },
+    {
+      "page": "detail",
+      "state": "picker-loading",
+      "url": "/movie/634649",
+      "as": "admin"
+    },
+    {
+      "page": "detail",
+      "state": "mobile-sheet",
+      "url": "/movie/634649",
+      "as": "admin"
+    },
+    {
+      "page": "series",
+      "state": "downloading",
+      "url": "/series/66732?s=4",
+      "as": "admin",
+      "setup": [
+        "cloud-jobs:series-downloading"
+      ]
+    },
+    {
+      "page": "series",
+      "state": "picker-episode",
+      "url": "/series/66732?s=4",
+      "as": "admin",
+      "setup": [
+        "clear-cloud-jobs"
+      ]
+    },
+    {
+      "page": "browse",
+      "state": "cached-only",
+      "url": "/movies?cached=1",
+      "as": "admin"
+    },
+    {
+      "page": "player",
+      "state": "default",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "controls-hidden",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "paused",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "seek-hover",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "handoff",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "handoff-sent",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "qr",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "copied",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "episodes",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "next-episode",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "end-season",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "ended",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "resume",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:resume"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "loading",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "buffering",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "stall",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "no-audio",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample=ac3"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "codec-error",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample",
+        "playback-fail"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "link-expired",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "link-expired-fail",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "offline",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample",
+        "offline"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "help",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample"
+      ],
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "my-list",
+      "state": "default",
+      "url": "/my-list",
+      "as": "admin",
+      "setup": [
+        "my-list:default"
+      ]
+    },
+    {
+      "page": "my-list",
+      "state": "hover",
+      "url": "/my-list",
+      "as": "admin",
+      "setup": [
+        "my-list:default"
+      ]
+    },
+    {
+      "page": "my-list",
+      "state": "removed",
+      "url": "/my-list",
+      "as": "admin",
+      "setup": [
+        "my-list:default"
+      ]
+    },
+    {
+      "page": "my-list",
+      "state": "bulk",
+      "url": "/my-list",
+      "as": "admin",
+      "setup": [
+        "my-list:default"
+      ]
+    },
+    {
+      "page": "my-list",
+      "state": "clear-confirm",
+      "url": "/my-list",
+      "as": "admin",
+      "setup": [
+        "my-list:default"
+      ]
+    },
+    {
+      "page": "my-list",
+      "state": "empty-continue",
+      "url": "/my-list",
+      "as": "admin",
+      "setup": [
+        "my-list:empty-continue"
+      ]
+    },
+    {
+      "page": "my-list",
+      "state": "empty",
+      "url": "/my-list",
+      "as": "admin",
+      "setup": [
+        "my-list:empty"
+      ]
+    },
+    {
+      "page": "my-list",
+      "state": "list-view",
+      "url": "/my-list",
+      "as": "admin",
+      "setup": [
+        "my-list:default"
+      ]
+    },
+    {
+      "page": "series",
+      "state": "default",
+      "url": "/series/66732?s=4",
+      "as": "admin",
+      "setup": [
+        "progress:series-default"
+      ]
+    },
+    {
+      "page": "series",
+      "state": "fresh",
+      "url": "/series/66732?s=1",
+      "as": "admin",
+      "setup": [
+        "progress:none"
+      ]
+    },
+    {
+      "page": "series",
+      "state": "next-ep",
+      "url": "/series/66732?s=4",
+      "as": "admin",
+      "setup": [
+        "progress:series-next-ep"
+      ]
+    },
+    {
+      "page": "series",
+      "state": "finished",
+      "url": "/series/66732?s=5",
+      "as": "admin",
+      "setup": [
+        "progress:series-finished"
+      ]
+    },
+    {
+      "page": "series",
+      "state": "context-menu",
+      "url": "/series/66732?s=4",
+      "as": "admin",
+      "setup": [
+        "progress:series-default"
+      ]
+    },
+    {
+      "page": "index",
+      "state": "default",
+      "url": "/",
+      "as": "admin",
+      "setup": [
+        "progress:home"
+      ]
+    },
+    {
+      "page": "detail",
+      "state": "resume",
+      "url": "/movie/634649",
+      "as": "admin",
+      "setup": [
+        "progress:resume"
+      ]
+    },
+    {
+      "page": "global",
+      "state": "limit-5",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "setup": [
+        "progress:none",
+        "viewers:5"
+      ],
+      "scenario": [
+        "play-sample"
+      ]
+    },
+    {
+      "page": "login",
+      "state": "logout-confirm",
+      "url": "/",
+      "as": "admin",
+      "setup": [
+        "cloud-jobs:logout",
+        "viewers:0",
+        "progress:none"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "popover",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample",
+        "subs-sim=popover"
+      ],
+      "setup": [
+        "progress:none",
+        "subs:seed"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "popover-ai",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample",
+        "subs-sim=popover-ai"
+      ],
+      "setup": [
+        "progress:none",
+        "subs:seed"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "popover-translating",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample",
+        "subs-sim=popover-translating"
+      ],
+      "setup": [
+        "progress:none",
+        "subs:seed"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "popover-none",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample",
+        "subs-sim=popover-none"
+      ],
+      "setup": [
+        "progress:none",
+        "subs:seed"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "popover-none-en",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample",
+        "subs-sim=popover-none-en"
+      ],
+      "setup": [
+        "progress:none",
+        "subs:seed"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "popover-quota",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample",
+        "subs-sim=popover-quota",
+        "os-quota-zero"
+      ],
+      "setup": [
+        "progress:none",
+        "subs:seed"
+      ]
+    },
+    {
+      "page": "player",
+      "state": "popover-translate-failed",
+      "url": "/watch/{sample}",
+      "as": "admin",
+      "scenario": [
+        "play-sample",
+        "subs-sim=popover-translate-failed",
+        "kie-down"
+      ],
+      "setup": [
+        "progress:none",
+        "subs:seed"
+      ]
+    },
+    {
+      "page": "settings",
+      "state": "profile",
+      "url": "/settings?tab=profile",
+      "as": "admin",
+      "setup": [
+        "clear-notifications"
+      ]
+    },
+    {
+      "page": "settings",
+      "state": "profile-saved",
+      "url": "/settings?tab=profile",
+      "as": "admin"
+    },
+    {
+      "page": "settings",
+      "state": "password-error",
+      "url": "/settings?tab=profile",
+      "as": "admin"
+    },
+    {
+      "page": "settings",
+      "state": "playback",
+      "url": "/settings?tab=playback",
+      "as": "admin"
+    },
+    {
+      "page": "settings",
+      "state": "subtitles",
+      "url": "/settings?tab=subtitles",
+      "as": "admin",
+      "setup": [
+        "os-quota:19"
+      ]
+    },
+    {
+      "page": "settings",
+      "state": "tv",
+      "url": "/settings?tab=tv",
+      "as": "admin",
+      "setup": [
+        "device-token:active"
+      ]
+    },
+    {
+      "page": "settings",
+      "state": "tv-revoke",
+      "url": "/settings?tab=tv",
+      "as": "admin",
+      "setup": [
+        "device-token:active"
+      ]
+    },
+    {
+      "page": "settings",
+      "state": "tv-revoked",
+      "url": "/settings?tab=tv",
+      "as": "admin",
+      "setup": [
+        "device-token:active"
+      ]
+    },
+    {
+      "page": "settings",
+      "state": "sessions",
+      "url": "/settings?tab=sessions",
+      "as": "admin",
+      "setup": [
+        "admin-data"
+      ]
+    },
+    {
+      "page": "admin",
+      "state": "dashboard",
+      "url": "/admin",
+      "as": "admin",
+      "setup": [
+        "clear-notifications",
+        "admin-data"
+      ]
+    },
+    {
+      "page": "admin",
+      "state": "users",
+      "url": "/admin/users",
+      "as": "admin"
+    },
+    {
+      "page": "admin",
+      "state": "invite-create",
+      "url": "/admin/users",
+      "as": "admin"
+    },
+    {
+      "page": "admin",
+      "state": "invite-result",
+      "url": "/admin/users",
+      "as": "admin"
+    },
+    {
+      "page": "admin",
+      "state": "reset-password",
+      "url": "/admin/users",
+      "as": "admin"
+    },
+    {
+      "page": "admin",
+      "state": "lock-confirm",
+      "url": "/admin/users",
+      "as": "admin"
+    },
+    {
+      "page": "admin",
+      "state": "delete-confirm",
+      "url": "/admin/users",
+      "as": "admin"
+    },
+    {
+      "page": "admin",
+      "state": "user-menu",
+      "url": "/admin/users",
+      "as": "admin"
+    },
+    {
+      "page": "admin",
+      "state": "queue",
+      "url": "/admin/queue",
+      "as": "admin"
+    },
+    {
+      "page": "admin",
+      "state": "queue-empty",
+      "url": "/admin/queue",
+      "as": "admin",
+      "setup": [
+        "clear-cloud-jobs"
+      ]
+    },
+    {
+      "page": "admin",
+      "state": "activity",
+      "url": "/admin/activity",
+      "as": "admin"
+    },
+    {
+      "page": "admin",
+      "state": "forbidden",
+      "url": "/admin",
+      "as": "member"
+    },
+    {
+      "page": "mobile-frame",
+      "state": "default",
+      "url": "/",
+      "as": "admin",
+      "setup": [
+        "clear-notifications",
+        "progress:home",
+        "clear-admin-data"
+      ]
+    }
+  ]
+}

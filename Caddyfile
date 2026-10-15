@@ -1,0 +1,62 @@
+# Lumen — Caddy in front of the Next.js container (docker-compose.yml).
+# APP_DOMAIN comes from .env (e.g. phim.example.com). Caddy obtains / renews the Let's Encrypt certificate itself;
+# with APP_DOMAIN=localhost it issues an internal certificate instead (local validation of this file).
+# Nothing sits in front of Caddy, so no trusted_proxies: every client is untrusted and X-Forwarded-For is always
+# rewritten to the real client IP (TRUST_PROXY=1 in the app → login rate limit + TorBox user_ip).
+{
+	email {$ACME_EMAIL:admin@example.com}
+	# the admin API would otherwise listen on caddy:2019 inside the compose network
+	admin off
+}
+
+{$APP_DOMAIN:localhost} {
+	encode zstd gzip
+	# JSON bodies only (login, settings, invites); the video pipes are GET requests
+	request_body {
+		max_size 10MB
+	}
+
+	header {
+		# private app: never indexed, never framed, no MIME sniffing, HSTS once HTTPS works
+		X-Robots-Tag "noindex, nofollow"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "same-origin"
+		Permissions-Policy "camera=(), microphone=(), geolocation=()"
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		-Server
+	}
+
+	# STREAM_MODE=proxy video pipes (player + Stremio file route): no buffering, long idle timeouts, Range passthrough
+	@stream path /api/play/stream/* /stremio/*/file/*
+	reverse_proxy @stream app:3000 {
+		flush_interval -1
+		transport http {
+			response_header_timeout 2h
+			read_timeout 2h
+			write_timeout 2h
+		}
+	}
+
+	# everything else: pages, JSON, VTT, Stremio manifest / catalog / play 302
+	reverse_proxy app:3000 {
+		transport http {
+			response_header_timeout 90s
+		}
+	}
+
+	log {
+		output file /var/log/caddy/access.log {
+			roll_size 20mb
+			roll_keep 5
+		}
+		# paths stay readable for debugging; Stremio / invite tokens and every query string are redacted, cookies dropped
+		format filter {
+			wrap console
+			fields {
+				request>uri regexp "(/(?:stremio|invite)/)[A-Za-z0-9_-]{32}|\?.*$" "${1}[redacted]"
+				request>headers>Cookie delete
+			}
+		}
+	}
+}

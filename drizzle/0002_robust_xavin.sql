@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `password_reset_at` integer;

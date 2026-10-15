@@ -1,0 +1,212 @@
+/* Rules the real app needs that the static mockup never had (behaviour-driven). Keep tiny. */
+/* header turns solid once the page is scrolled >= 40px (design token table, phase-01) */
+header.solid{background:#141414}
+/* wrong-password shake on the `.bad` input */
+@keyframes lumen-shake{10%,90%{transform:translateX(-2px)}20%,80%{transform:translateX(3px)}30%,50%,70%{transform:translateX(-4px)}40%,60%{transform:translateX(4px)}}
+.form input.bad.shake{animation:lumen-shake .4s}
+/* onboarding gate: the mockup's .auth card rendered as a full-screen overlay above the app shell */
+.auth.gate{position:fixed;inset:0;z-index:40;min-height:0;overflow:auto}
+/* real QR image inside the mockup's .qr box (mockup used a checker gradient) */
+.qr img{display:block;width:100%;height:100%}
+/* offline banner "Thử lại" button and toast controls are real buttons: reset native look */
+.toast .act,.toast .x,.menu2 div{cursor:pointer}
+.toast .x{background:none;border:0;padding:0}
+.toast .act{background:none;border:0;padding:0;font:inherit;font-weight:600}
+/* emptybox action is a link styled as .btn */
+.emptybox a.btn{display:inline-flex}
+/* keyboard highlight inside Radix menu items */
+.menu2 [data-highlighted]{background:#333;color:#fff;outline:none}
+/* mobile: keep the toast stack above the 64px tab bar — only on pages that render one (auth pages stay flush like the mock) */
+@media (max-width:700px){body:has(.tabbar) .toasts{bottom:80px}}
+/* `.load` spinner follows the button's text colour (global.html hard-coded black, invisible on the red/white auth buttons) */
+.btn.load:before{border-color:color-mix(in srgb,currentColor 25%,transparent);border-top-color:currentColor}
+/* `.bad`/`.ok` use `outline` for the state colour, which erased the UA focus ring: on keyboard focus the outline becomes the focus ring and the state moves to a box-shadow */
+.form input.bad:focus-visible,.form input.ok:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.form input.bad:focus-visible{box-shadow:0 0 0 2px #e50914}
+.form input.ok:focus-visible{box-shadow:0 0 0 2px #46d369}
+/* ---- Phase 2: catalog behaviour the static mockup never needed ---- */
+/* hover panel / scale need vertical room inside the clipped row: pad + negative margin keep the layout identical.
+   The padded band overlaps the next section, so the row itself is click-transparent and only its cards take the pointer
+   (otherwise a z-indexed row — mockup `.hero+section{z-index:2}`, Phase 4 "Tiếp tục xem" — would steal the Top 10's clicks). */
+@media (hover:hover) and (pointer:fine){.row{padding:12px 0 150px;margin:-12px 0 -150px;pointer-events:none}.row>*{pointer-events:auto}}
+/* touch devices: rows scroll natively by swipe (the mockup's overflow:hidden only works with desktop chevrons); scrollbar hidden, snap per card */
+@media (hover:none),(max-width:700px){
+  .row,.top10{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;scroll-snap-type:x proximity;scrollbar-width:none;scroll-padding-left:var(--pad)}
+  .row::-webkit-scrollbar,.top10::-webkit-scrollbar{display:none}
+  .row>.card,.top10>.t10{scroll-snap-align:start}
+  .chev{display:none}
+}
+/* hero: arrows on hover + logo image inside the h1 slot */
+.hero-arrow{position:absolute;top:50%;z-index:2;transform:translateY(-50%);width:44px;height:80px;border:0;border-radius:4px;background:#00000066;color:#fff;font-size:40px;line-height:1;cursor:pointer;opacity:0;transition:opacity .2s}
+.hero-arrow.l{left:8px}.hero-arrow.r{right:8px}.hero:hover .hero-arrow{opacity:1}
+.hero h1 .herologo{display:block;max-width:min(420px,80vw);max-height:150px;width:auto;height:auto;filter:drop-shadow(0 4px 24px #000a)}
+.hero .dots i{cursor:pointer}.hero .dots i:focus-visible{outline:2px solid #fff;outline-offset:3px}
+/* chevrons / cards are interactive now; the poster link is a block so the card keeps the mockup's 165px flex basis
+   (an inline <a> around a nowrap label would raise the flex item's min-content width and stretch the whole row) */
+.chev,.card .n,.t10 a{cursor:pointer}.chev:focus-visible{opacity:1;outline:2px solid #fff;outline-offset:-2px}
+.card{min-width:0}.card>a{display:block}
+.card a:focus-visible img,.t10 a:focus-visible img{outline:2px solid #fff;outline-offset:2px}
+.hoverpanel .acts span{cursor:pointer}.hoverpanel .acts span:focus-visible{outline:2px solid #fff;outline-offset:1px}
+/* meta lines never wrap (a long genre pair would push the 2nd line under the panel edge) */
+.hoverpanel .m{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* cached dot slot (Phase 3 fills `cached`) */
+.card .cdot{position:absolute;left:8px;top:8px;width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 0 2px #000a}
+/* search overlay input + rows are real controls */
+.sov .inp .x,.sov .r,.sov .more{cursor:pointer}.sov .inp .x{background:none;border:0;color:#888;font:inherit;padding:0}
+.sov .r .rm{margin-left:auto;color:#666;background:none;border:0;font:inherit;cursor:pointer}
+.sov .r a{display:flex;gap:12px;align-items:center;flex:1;min-width:0}
+.sov .r mark{background:none;color:#fff;font-weight:700}
+/* notifications dropdown: rows are links, header action is a button */
+.notif .hd button{background:none;border:0;color:#7fb5ff;font:inherit;font-size:13px;cursor:pointer;padding:0}
+.notif .it{cursor:pointer}.notif .it>div:last-child{min-width:0}
+.hicons .bell-wrap{position:relative;display:inline-flex;cursor:pointer}.hicons .ico.search{cursor:pointer}
+/* filter bar: chip menus anchor to their chip; mobile collapses chips to one "Lọc (n)" chip */
+.fbar .chip,.fbar .tog{cursor:pointer}.fbar .chip:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.menu2 div.hint{padding:6px 12px;color:#888;font-size:12px;cursor:default}.menu2 div.hint:hover{background:none;color:#888}
+.menu2 div.apply{color:#7fb5ff}
+/* genre menu: two columns, scrolls past 60vh, "Xoá lọc" / "Áp dụng" pinned (sticky) so they are always on screen */
+.menu2.genremenu{display:grid;grid-template-columns:1fr 1fr;min-width:380px;max-height:60vh;overflow:auto;overscroll-behavior:contain}
+.menu2.genremenu .hint,.menu2.genremenu .sep{grid-column:1/-1}
+.menu2.genremenu .clear,.menu2.genremenu .apply{position:sticky;bottom:0;background:#1f1f1f}
+.menu2.genremenu .apply{text-align:right}
+.fbar .mob{display:none}
+@media (max-width:700px){.fbar .desk{display:none}.fbar .mob{display:inline-block}}
+/* Radix popper wrapper positions the menu; neutralise the mockup's fixed seasonmenu offsets inside it */
+[data-radix-popper-content-wrapper] .menu2{position:relative;right:auto;top:auto}
+/* grid cards keep the hover scale visible */
+.gridwrap .grid{padding-bottom:160px;margin-bottom:-160px}
+/* episodes: overview clamp 2 lines, expands on click; thumbnails/rows are interactive */
+.ep .p.clamp{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.ep .p{cursor:pointer}
+.ep .more{background:none;border:0;cursor:pointer}.eps .dd{cursor:pointer;background:#242424}
+/* trailer dialog */
+.yt iframe{width:100%;height:100%;border:0;border-radius:8px}
+.detail .kv i{cursor:pointer}.detail .kv a:hover{text-decoration:underline}
+.detail .acts a.btn{display:inline-flex}
+/* series hero is 520px on desktop (series.html inline style); mobile keeps the shared auto-height rule */
+@media (min-width:701px){.detail.series{height:520px}}
+/* /search on phones carries its own input under the page header (the header 🔍 is hidden ≤ 700 px); desktop hides it */
+.msearch{display:none}
+@media (max-width:700px){
+.msearch{display:flex;align-items:center;gap:10px;margin:14px var(--pad) 0;background:#000e;border:1px solid #fff;padding:9px 12px;font-size:15px}
+.msearch input{flex:1;min-width:0;background:none;border:0;color:#fff;font-size:15px;outline:none}
+/* the search overlay becomes a full-screen sheet under the 56px header (tab bar "Tìm kiếm" opens it); the tab bar hides meanwhile */
+.sov{position:fixed;left:0;right:0;top:56px;bottom:0;width:auto;background:#141414;overflow:auto;overscroll-behavior:contain;z-index:30}
+.sov .inp{border-width:0 0 1px}.sov .dd{border:0}
+body:has(.sov) .tabbar{display:none}
+}
+/* ---- Phase 3: source picker behaviour the static mockup never needed ---- */
+/* picker rows are keyboard-navigable: highlighted row = the hover colour; the box is a Radix dialog content (no UA outline) */
+.src.on{background:#222}.box:focus{outline:none}.box{max-height:92vh;overflow:auto}
+.box .hd .x{margin-left:12px;color:#888;background:none;border:0;font:inherit;font-size:16px;cursor:pointer;padding:0}
+.box .filt span,.toggle{cursor:pointer}.box .filt span:focus-visible,.toggle:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.detail .acts .btn.w[disabled]{cursor:not-allowed}
+.ep button.more{background:none;border:0;font:inherit;cursor:pointer}
+/* hero "● Đã cache": the admin table's `.live` 8px dot rule (screens.css) must not shrink the hero meta text (index.html loads only mockup.css for it) */
+.hero .meta .live{display:inline;width:auto;height:auto;border-radius:0;background:none;margin-right:0;white-space:nowrap}
+/* ---- Phase 3 fixes ---- */
+/* picker: the format label under the quality never wraps (keeps every row the same height) */
+.src .q small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* visually-hidden live region for progress announcements */
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* picker rows are focusable options (roving tabindex) */
+.src:focus-visible{outline:2px solid #fff;outline-offset:-2px}
+/* ---- Phase 4: player behaviour the static mockup never needed ---- */
+/* the player is a fixed full-screen surface above the shell; header / tab bar / scroll stay out of the way */
+.player{z-index:20}body:has(.player){overflow:hidden}body:has(.player) header,body:has(.player) .tabbar{display:none}
+.player video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000}
+.player.nocursor{cursor:none}
+/* control icons are real buttons: same 30px box + 26px gap as the mockup's bare svgs */
+.player button.ib{background:none;border:0;padding:0;margin:0;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;color:#fff;flex:none}
+.player button.ib[disabled]{opacity:.35;cursor:default}
+.player button.ib:focus-visible{outline:2px solid #fff;outline-offset:3px;border-radius:3px}
+.ptop{pointer-events:none}.ptop button{pointer-events:auto}
+/* seek bar: pointer target 16px tall around the 3px track; hover preview above the handle */
+.seek .trk{cursor:pointer;touch-action:none}.seek .trk:before{content:"";position:absolute;left:0;right:0;top:-8px;bottom:-8px}.seek .trk:focus-visible{outline:2px solid #fff;outline-offset:6px}
+.seek .time{cursor:pointer;user-select:none}
+.seekprev{position:absolute;bottom:26px;transform:translateX(-50%);text-align:center;z-index:3;pointer-events:none}
+.seekprev .thumb{width:160px;height:90px;background:#333 center/cover;border:2px solid #fff;border-radius:4px}.seekprev .t{font-size:13px;margin-top:4px}
+/* volume: hover / focus reveals the vertical slider above the icon */
+.volwrap{position:relative;display:inline-flex;flex:none}
+.volslider{position:absolute;left:50%;bottom:38px;transform:translateX(-50%);background:#262626f2;padding:12px 8px;border-radius:6px;box-shadow:0 10px 40px #000;display:none;z-index:3}
+/* invisible bridge over the 8px gap between the icon (30px) and the popup, so moving the mouse up to the
+   slider never leaves `.volwrap` (hover used to drop and the popup vanished mid-way) */
+.volslider::after{content:"";position:absolute;left:-10px;right:-10px;top:100%;height:14px}
+.volwrap:hover .volslider,.volwrap:focus-within .volslider,.volwrap:has(input:active) .volslider{display:block}
+.volslider input{writing-mode:vertical-lr;direction:rtl;height:90px;width:18px;accent-color:#e50914;cursor:pointer}
+/* centre play / pause flash */
+.pflash{position:absolute;left:50%;top:50%;width:90px;height:90px;border-radius:50%;background:#000a;display:grid;place-items:center;pointer-events:none;z-index:3;animation:lumen-flash .5s forwards}
+.pflash .ico{width:44px;height:44px}
+@keyframes lumen-flash{from{opacity:1;transform:translate(-50%,-50%) scale(1)}to{opacity:0;transform:translate(-50%,-50%) scale(1.5)}}
+/* hand-off sheet / drawer entries are buttons */
+.sheet2 button.it{display:block;width:100%;text-align:left;background:none;border:0;color:#fff;font:inherit;cursor:pointer}
+.sheet2 button.it:focus-visible{outline:2px solid #fff;outline-offset:-2px}
+.drawer h3 select{background:none;border:0;color:#fff;font:inherit;appearance:none;-webkit-appearance:none;padding:0;cursor:pointer}
+.drawer h3 .x{color:#888;background:none;border:0;font:inherit;font-size:18px;cursor:pointer;padding:0}
+.drawer .ep{cursor:pointer}.drawer .ep:focus-visible{outline:2px solid #fff;outline-offset:-2px}
+.pbanner.banner{border-radius:6px}.pbanner .btn+.btn{margin-left:8px}
+/* next-episode card: "▶ Phát ngay" / "Huỷ" stay on one line like the mockup */
+.nextcard .btn{white-space:nowrap}
+/* "Đang lấy link từ Torbox…": the backdrop (passed by the page before the manifest answers) shows blurred behind the spinner */
+.pcenter[data-overlay="loading-link"]{backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);background:#0006}
+/* ≤ 700 px: the title drops out (mockup), the sheet / drawer / next card fit the phone. Speed and PiP leave the row
+   (PiP does not exist on iPhone, speed stays reachable on desktop) so the series row — ▶ ↺ ↻ 🔊 ⏭ ☰ cc 📺 ⛶ = 9 icons —
+   fits 390px at 26px + 12px (330px inside the 30px bar padding); ≤ 380px tightens the gap to 8px (298px ≤ 300px). */
+@media (max-width:700px){
+.ctl{gap:12px}.ctl .ico{width:26px;height:26px} /* mockup: 30px + 16px gap overflows 390px (⛶ clipped); 26px + 12px fits 9 icons */
+.player .ctl button[data-action="speed"],.player .ctl button[data-action="pip"]{display:none} /* outranks `.player button.ib{display:inline-flex}` */
+.sheet2{left:10px;right:10px;bottom:84px;min-width:0}.drawer{width:100%}.nextcard{left:12px;right:12px;width:auto;bottom:96px}.pbanner{left:12px;right:12px;bottom:110px}
+.endscreen h2{font-size:22px}.endscreen .btn{margin:4px}
+}
+@media (max-width:380px){.ctl{gap:8px}}
+/* reduced motion: no centre flash / spinner animation (the spinner stays as a static ring) */
+@media (prefers-reduced-motion:reduce){.pflash{animation:none;display:none}.spin{animation:none}.card,.card img,.hero-arrow,.chev{transition:none}}
+/* ---- Phase 4: continue row / wide cards / My List ---- */
+.card.wide a{display:block;position:relative}.card.wide .ttl,.card.wide .ep{pointer-events:none}
+.card .rm,.card .playc{display:none;cursor:pointer;border:0;color:#fff;font:inherit}
+.card .playc{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:44px;height:44px;border-radius:50%;background:#000c;place-items:center;font-size:18px}
+.card:hover .rm,.card:hover .playc,.card:focus-within .rm,.card:focus-within .playc,.card.hov .rm,.card.hov .playc{display:grid}
+.card.selectable{cursor:pointer}.card .chk{cursor:pointer;border:2px solid #fff;color:#fff;font:inherit}
+.tools .chip{cursor:pointer;background:none;font:inherit}.tools .chip:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.bulkbar .btn{margin-left:0}
+table.mylist td .btn.sm{padding:5px 10px}table.mylist tr{cursor:default}
+.h .clear{opacity:1;cursor:pointer;background:none;border:0;padding:0;font:inherit;color:#54b9c5;font-size:13px;font-weight:600}
+.detail .acts a.restart{color:#aaa;font-size:13px;margin:0 6px;cursor:pointer}
+.ep .watched{white-space:nowrap}
+/* touch devices have no hover: the continue / My List card actions stay visible; the toolbar chips wrap on phones */
+@media (hover:none){.card .rm,.card .playc{display:grid}}
+@media (max-width:700px){.tools{flex-wrap:wrap}.tools .sp{flex-basis:100%}}
+/* ---- Phase 5: subtitle popover / band behaviour the static mockup never needed ---- */
+/* popover rows are real buttons (same box as the mockup's divs); the ✓ pseudo-element needs `position:relative` from `.it` */
+.pop button.it{display:block;width:100%;text-align:left;background:none;border:0;font:inherit;color:#ccc;cursor:pointer}
+.pop button.it.on{color:#fff}.pop button.it.ai{color:#7fb5ff}.pop .it small{display:block;color:#888;font-size:12px}.pop .it small .match{color:#7fd39b}
+.pop .it.locked{opacity:.45;cursor:default}.pop .it.err{color:#f0a0a0}.pop .small.quota{color:#f0d79b}.pop .small.none{padding:8px 10px}
+.pop .it .linkbtn{background:none;border:0;padding:0;font:inherit;color:inherit;cursor:pointer}
+.pop .ctrl b button.step{background:none;border:0;padding:0;font:inherit;color:#fff;cursor:pointer;user-select:none;-webkit-user-select:none;touch-action:none}
+.pop button:focus-visible{outline:2px solid #fff;outline-offset:-2px;border-radius:3px}
+.pop:focus{outline:none}
+/* the band never intercepts clicks meant for the stage (play / pause toggle) */
+.subs{pointer-events:none}
+/* native <track> cues (shown only in the iPhone system full screen, where the band cannot render): the band's look, minus S/M/L */
+video::cue{color:#fff;background:rgba(0,0,0,.55);font-weight:500;text-shadow:0 0 6px #000,2px 2px 2px #000}
+/* ---- Phase 6: settings + admin behaviour the static mockup never needed ---- */
+/* settings left column stacks above the content on phones (the mock had no mobile rule → 220px grid overflowed) */
+@media (max-width:700px){.set{grid-template-columns:1fr;gap:16px}.set nav2{display:flex;gap:4px;overflow:auto;white-space:nowrap}.set nav2 a{flex:none}.dashgrid{grid-template-columns:1fr!important}}
+/* admin tables keep their nowrap cells and scroll sideways on narrow screens */
+.admin .tbl{overflow-x:auto;-webkit-overflow-scrolling:touch}
+/* controls that are real buttons / links now */
+.set nav2 a,.atabs a,.swatch i,.seg span,.sw,.toolbar .chip,.btn.more{cursor:pointer}
+.set nav2 a:focus-visible,.atabs a:focus-visible,.swatch i:focus-visible,.seg span:focus-visible,.sw:focus-visible,.toolbar .chip:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.btn.more{line-height:1;font-size:16px}
+/* `.dlg input` width:100% applies to the invite form; the create-invite seg keeps its inline look from the mock */
+.dlg .seg span{line-height:1.4}
+/* real QR image inside the big invite box (mock used the checker gradient) */
+.qrbig img{display:block;width:100%;height:100%}
+/* phones: the TV box wraps (QR above the steps), its button row wraps, the admin toolbar wraps and the tab strip scrolls */
+@media (max-width:700px){.set{grid-template-columns:minmax(0,1fr)}.set>div{min-width:0}.tvbox{flex-wrap:wrap}.tvbox>div{min-width:0}.tvbox>div>div{flex-wrap:wrap}
+.set .fld{flex-wrap:wrap;row-gap:10px}.set .seg{max-width:100%;overflow-x:auto;scrollbar-width:none}.set .seg span{flex:none}
+.atabs{overflow-x:auto;white-space:nowrap;scrollbar-width:none}.atabs a{flex:none}.toolbar{flex-wrap:wrap}.toolbar input{width:100%}.kpis .kpi{flex:1 1 150px;min-width:0}}
+
+/* poster-card badge ("Mới" / "Mùa mới" / "Mới thêm"): the mockup anchors .tagb to the whole .card, whose bottom is the title label
+   (.n: 12.5px × 1.45 line-height + 7px margin-top ≈ 25px, always one ellipsised line) — lift it so it sits 6px above the poster's
+   bottom edge instead of over the title. Wide (16:9) cards and Top 10 keep the mockup rule (their badge is already inside the image). */
+.card:not(.wide) .tagb{bottom:calc(6px + 7px + 12.5px * 1.45)}

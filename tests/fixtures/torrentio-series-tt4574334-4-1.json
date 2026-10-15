@@ -1,0 +1,545 @@
+{
+  "streams": [
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 4 / Серии: 1-9 из 9 [2022 HEVC HDR10 Dolby Vision WEB-DL 2160p 4k] 4 x MVO + Original + Sub (Rus Eng)\nStranger.Things.S04E01.Chapter.One.The.Hellfire.Club.NF.HDR.DV.WEB-DL.2160p.by.AKTEP.mkv\n👤 65 💾 9.67 GB ⚙️ Rutracker\n🇬🇧 / 🇷🇺",
+      "infoHash": "abdea95dc868f2bc28325d9518d8c2d3410fe0e1",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|abdea95dc868f2bc28325d9518d8c2d3410fe0e1",
+        "filename": "Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.NF.HDR.DV.WEB-DL.2160p.by.AKTEP.mkv"
+      },
+      "sources": [
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "dht:abdea95dc868f2bc28325d9518d8c2d3410fe0e1",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:udp://opentor.net:6969",
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "tracker:http://bt3.t-ru.org/ann?magnet",
+        "tracker:http://bt4.t-ru.org/ann?magnet"
+      ]
+    },
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Stranger.Things.S04.ITA.ENG.2160p.NF.WEB-DL.DDP5.1.DV.HDR.H.265-MeM.GP\nStranger.Things.S04E01.Capitolo.Uno.Hellfire.Club.ITA.ENG.2160p.NF.WEB-DL.DDP5.1.DV.HDR.H.265-MeM.GP.mkv\n👤 42 💾 10.82 GB ⚙️ ilCorSaRoNeRo\n🇬🇧 / 🇮🇹",
+      "infoHash": "4602bc33c12fdf087506fd20f98fc59a371a2f15",
+      "fileIdx": 8,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4602bc33c12fdf087506fd20f98fc59a371a2f15",
+        "filename": "Stranger.Things.S04E01.Capitolo.Uno.Hellfire.Club.ITA.ENG.2160p.NF.WEB-DL.DDP5.1.DV.HDR.H.265-MeM.GP.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Stranger Things Season 4 (S04) 2160p HDR 5.1 x265 10bit Phun Psyz\nStranger Things S04E01 Chapter One The Hellfire Club.mkv\n👤 26 💾 1.91 GB ⚙️ TorrentGalaxy",
+      "infoHash": "a5a0388b5bdc255d0fa6611bef12e4d2ae51e0bf",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|a5a0388b5bdc255d0fa6611bef12e4d2ae51e0bf",
+        "filename": "Stranger Things S04E01 Chapter One The Hellfire Club.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV",
+      "title": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 4 / Серии: 1-9 из 9 [2022 HEVC Dolby Vision TV WEB-DL 2160p 4k] 2 x Dub + 4 x MVO + Ukr + Original (Eng) + Sub (Rus Ukr Eng)\nStranger.Things.S04E01.2160p.Netflix.WEB-DL.DDP.5.1.Atmos.H.265-HHWEB.mp4\n👤 25 💾 12.46 GB ⚙️ Rutracker\n🇬🇧 / 🇷🇺 / 🇺🇦",
+      "infoHash": "4994f7d933a164b953d32252f568b57686e6d7af",
+      "fileIdx": 8,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4994f7d933a164b953d32252f568b57686e6d7af",
+        "filename": "Stranger.Things.S04E01.2160p.Netflix.WEB-DL.DDP.5.1.Atmos.H.265-HHWEB.mp4"
+      },
+      "sources": [
+        "tracker:http://bt3.t-ru.org/ann?magnet",
+        "dht:4994f7d933a164b953d32252f568b57686e6d7af",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:udp://opentor.net:6969",
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "tracker:http://bt4.t-ru.org/ann?magnet"
+      ]
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Stranger.Things.S04.2160p.NF.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-SiC[rartv]\nStranger.Things.S04E01.2160p.NF.WEB-DL.DDPA5.1.HDR.DV.HEVC-SiC.mkv\n👤 17 💾 8.69 GB ⚙️ RARBG",
+      "infoHash": "1db993c5489c1b7dfa5b0f66ce3bbf35f9828c4d",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1db993c5489c1b7dfa5b0f66ce3bbf35f9828c4d",
+        "filename": "Stranger.Things.S04E01.2160p.NF.WEB-DL.DDPA5.1.HDR.DV.HEVC-SiC.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV",
+      "title": "Stranger Things S04E01 Chapter One The Hellfire Club 2160p NF WEB-DL DDP5 1\n👤 11 💾 10.5 GB ⚙️ ThePirateBay",
+      "infoHash": "0c8e00170bcd1d68214a9a6fba45a56cc01dee3a",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|DV|Kitsune",
+        "filename": "Stranger Things S04E01 Chapter One The Hellfire Club 2160p NF WEB-DL DDP5 1 Atmos DV H 265-Kitsune.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV",
+      "title": "Stranger Things S04E01 Chapter One The 2160p NF WEB-DL DDP5 1 Atmos DV H 26\n👤 11 💾 10.5 GB ⚙️ ThePirateBay",
+      "infoHash": "8f3c5906298c841c166bccd336c74e109af4b79f",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|DV|Kitsune",
+        "filename": "Stranger Things S04E01 Chapter One The 2160p NF WEB-DL DDP5 1 Atmos DV H 265-Kitsune.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Stranger Things - (2016) [tmdb-66732] [2160p] [DV+HDR10] [5.1 & 7.1] [AV1] Full Show\nSeason 4/Stranger Things - 4x01 - Chapter One The Hellfire Club (2016) [2160p] [DV+HDR10] [7.1] [AV1].mkv\n👤 9 💾 8.3 GB ⚙️ EXT",
+      "infoHash": "5b9d4a7a06d899e8d1f5ff98d95f531aff04d5e7",
+      "fileIdx": 52,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|5b9d4a7a06d899e8d1f5ff98d95f531aff04d5e7",
+        "filename": "Stranger Things - 4x01 - Chapter One The Hellfire Club (2016) [2160p] [DV+HDR10] [7.1] [AV1].mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Stranger.Things.S04.MULTi.HDR.DV.2160p.WEB.H265-FW\nStranger.Things.S04E01.MULTi.HDR.DV.2160p.WEB.H265-FW.mkv\n👤 6 💾 9.41 GB ⚙️ Torrent9\nMulti Audio / 🇫🇷",
+      "infoHash": "14693833cb7cc93ec664e1c45a1c71eceb8ff1f4",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|14693833cb7cc93ec664e1c45a1c71eceb8ff1f4",
+        "filename": "Stranger.Things.S04E01.MULTi.HDR.DV.2160p.WEB.H265-FW.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Stranger Things S04E01 Chapter One The Hellfire Club 2160p NF WEB-DL DDP5 1\n👤 6 💾 10.48 GB ⚙️ ThePirateBay",
+      "infoHash": "f48bc5521f777228081a7fdd17f8561fa4bb2181",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|DV|HDR|FLUX",
+        "filename": "Stranger Things S04E01 Chapter One The Hellfire Club 2160p NF WEB-DL DDP5 1 Atmos DV HDR H 265-FLUX.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k",
+      "title": "Stranger Things S04E01 Chapter One The 2160p NF WEB-DL DDP5 1 Atmos H 265-K\n👤 17 💾 6.75 GB ⚙️ ThePirateBay",
+      "infoHash": "b36824aab45a13a8fdb1195c34ce4ae4d42ed05d",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|Kitsune",
+        "filename": "Stranger Things S04E01 Chapter One The 2160p NF WEB-DL DDP5 1 Atmos H 265-Kitsune.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k",
+      "title": "Stranger.Things.S04.2160p.NF.WEB-DL.x265.10bit.SDR.DDP5.1.Atmos-DONUTS\nstranger.things.s04e01.2160p.web.h265-donuts.mkv\n👤 6 💾 6.65 GB ⚙️ TorrentGalaxy",
+      "infoHash": "c3d5c3e815b63be341b760759f2948c8460631da",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|c3d5c3e815b63be341b760759f2948c8460631da",
+        "filename": "stranger.things.s04e01.2160p.web.h265-donuts.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p HDR",
+      "title": "Stranger.Things.S04.COMPLETE.1080p.NF.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-TBD\nStranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEB-DL.DDP5.1.Atmos.HDR.HEVC-TBD.mkv\n👤 11 💾 3.43 GB ⚙️ ThePirateBay",
+      "infoHash": "d2d4b7550ffb87a15eeabd3fb7398f6419e6c33d",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|d2d4b7550ffb87a15eeabd3fb7398f6419e6c33d",
+        "filename": "Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEB-DL.DDP5.1.Atmos.HDR.HEVC-TBD.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p HDR",
+      "title": "Stranger Things (S04)(2022)(Hevc)(1080p)(HDR)(10bit)(WebDL)(AC3 5.1-MultiLang)(MultiSub) PHDTeam\nStranger Things_S04E01_Kapitola první_ Klub Hellfire.mkv\n👤 7 💾 3.26 GB ⚙️ TorrentGalaxy\nMulti Audio / Multi Subs / 🇬🇧",
+      "infoHash": "c857f7af7b643d7ede52696118d09156ab17371d",
+      "fileIdx": 4,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|c857f7af7b643d7ede52696118d09156ab17371d",
+        "filename": "Stranger Things_S04E01_Kapitola první_ Klub Hellfire.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p HDR",
+      "title": "Stranger Things (2016-2025) Complete Series DS4K 1080p HDR10 BluRay Rip H265 AAC 5.1-7.1\nS04/Stranger Things - 4X01 - Chapter One The Hellfire Club.mkv\n👤 6 💾 5.54 GB ⚙️ 1337x",
+      "infoHash": "27546dd2d93a31c05d8b49ffbb3ad73a6866c121",
+      "fileIdx": 25,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|27546dd2d93a31c05d8b49ffbb3ad73a6866c121",
+        "filename": "Stranger Things - 4X01 - Chapter One The Hellfire Club.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger.Things.S04.COMPLETE.1080p.WEBRip.x265-RARBG\nStranger.Things.S04E01.1080p.WEBRip.x265-RARBG.mp4\n👤 223 💾 1.22 GB ⚙️ RARBG",
+      "infoHash": "6237cf126e185daadf5320e6d41046635b5c74b2",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|6237cf126e185daadf5320e6d41046635b5c74b2",
+        "filename": "Stranger.Things.S04E01.1080p.WEBRip.x265-RARBG.mp4"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Очень странные дела / Загадочные события / Stranger Things / Сезон: 4 / Серии: 1-9 из 9 [2022 WEB-DL 1080p] MVO (LostFilm HDrezka Studio TVShows) + Original (Eng) + Sub (Rus Eng)\nStranger.Things.S04E01.WEBDL.1080p.RGzsRutracker.mkv\n👤 122 💾 3.84 GB ⚙️ Rutracker\n🇬🇧 / 🇷🇺",
+      "infoHash": "0095c197c342f95e04003161a65b6e71e00cef19",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|0095c197c342f95e04003161a65b6e71e00cef19",
+        "filename": "Stranger.Things.S04E01.WEBDL.1080p.RGzsRutracker.mkv"
+      },
+      "sources": [
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "dht:0095c197c342f95e04003161a65b6e71e00cef19",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:udp://opentor.net:6969",
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "tracker:http://bt3.t-ru.org/ann?magnet",
+        "tracker:http://bt4.t-ru.org/ann?magnet"
+      ]
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger.Things.S04.COMPLETE.1080p.NF.WEBRip.DDP5.1.Atmos.x264-TBD\nStranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEB-DL.DDP5.1.Atmos.x264-TBD.mkv\n👤 79 💾 3.09 GB ⚙️ ThePirateBay",
+      "infoHash": "269dd23d6cb5578673303d643754b0be89e6970e",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|269dd23d6cb5578673303d643754b0be89e6970e",
+        "filename": "Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEB-DL.DDP5.1.Atmos.x264-TBD.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Очень странные дела / Stranger Things / Сезон: 4 / Серии: 1-9 из 9 [2022 WEB-DL 1080p] Dub (Videofilm Int.) + Dub (Ukr) + Original + Sub (Rus Eng Heb Rom Ukr Chi)\nStranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEB-DL.x264-EniaHD.mkv\n👤 78 💾 3.79 GB ⚙️ Rutracker\n🇬🇧 / 🇷🇺 / 🇨🇳 / 🇷🇴 / 🇺🇦 / 🇮🇱",
+      "infoHash": "571d63f1067954c41a51dc3b02ca577414f68c76",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|571d63f1067954c41a51dc3b02ca577414f68c76",
+        "filename": "Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEB-DL.x264-EniaHD.mkv"
+      },
+      "sources": [
+        "tracker:http://bt4.t-ru.org/ann?magnet",
+        "dht:571d63f1067954c41a51dc3b02ca577414f68c76",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:udp://opentor.net:6969",
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "tracker:http://bt3.t-ru.org/ann?magnet"
+      ]
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger.Things.S04.1080p.ITA-ENG.MULTI.WEBRip.x265.AAC-V3SP4EV3R\nStranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.ITA-ENG.MULTI.WEBRip.x265.AAC-V3SP4EV3R.mkv\n👤 76 💾 1.11 GB ⚙️ ilCorSaRoNeRo\nMulti Audio / 🇬🇧 / 🇮🇹",
+      "infoHash": "8aa8406a4222346e94be2e20d1d5ae09d41028ee",
+      "fileIdx": 8,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|8aa8406a4222346e94be2e20d1d5ae09d41028ee",
+        "filename": "Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.ITA-ENG.MULTI.WEBRip.x265.AAC-V3SP4EV3R.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger Things - Season 1 to 4 - Mp4 x264 AC3 1080p\nSeason 4/Stranger Things S04E01.mp4\n👤 54 💾 2.05 GB ⚙️ 1337x",
+      "infoHash": "f3d64ba8de689c1c19e3fe17efe8bf63a4dc4bdb",
+      "fileIdx": 29,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|f3d64ba8de689c1c19e3fe17efe8bf63a4dc4bdb",
+        "filename": "Stranger Things S04E01.mp4"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger.Things.S04.web-dl.sdr.1080p.av1.5.1.eac3.subs-Dust\nStranger.Things.S04E01.Chapter.One.The.Hellfire.Club.mkv\n👤 46 💾 837.98 MB ⚙️ ilCorSaRoNeRo",
+      "infoHash": "a8c1d076c820c6aefaeda60a8863b6ab9adc1605",
+      "fileIdx": 4,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|a8c1d076c820c6aefaeda60a8863b6ab9adc1605",
+        "filename": "Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger Things - Stagioni 1-5 (2016) [COMPLETA] + film \"Un'ultima avventura\" (1080p x265 ENG EAC3 MULTISUB WEB-DL) [Silence - QxR] [113GB]\nStranger Things (2016) S04 (Atmos)/Stranger Things (2016) - S04E01 - Chapter One The Hellfire Club (1080p NF WEB-DL x265 Silence).mkv\n👤 39 💾 3.15 GB ⚙️ ilCorSaRoNeRo\nMulti Subs / 🇬🇧",
+      "infoHash": "ada8ba98fbc76d6335d0eae463bddb00797d0940",
+      "fileIdx": 26,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|ada8ba98fbc76d6335d0eae463bddb00797d0940",
+        "filename": "Stranger Things (2016) - S04E01 - Chapter One The Hellfire Club (1080p NF WEB-DL x265 Silence).mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger Things Season 4 S04 Complete 1080p Rip AAC5.1 x265-R\nStranger Things - S04E01 - Chapter One - The Hellfire Club.mkv\n👤 37 💾 927.43 MB ⚙️ ThePirateBay",
+      "infoHash": "2c1055fdb6e5e8f23d249ac272b7670cba18cd9d",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|2c1055fdb6e5e8f23d249ac272b7670cba18cd9d",
+        "filename": "Stranger Things - S04E01 - Chapter One - The Hellfire Club.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger Things (2016) Season 4 S04 (1080p NF WEB-DL x265 HEVC 10bit EAC3 5.1 Silence)\nStranger Things (2016) - S04E01 - Chapter One The Hellfire Club (1080p NF WEB-DL x265 Silence).mkv\n👤 35 💾 2.99 GB ⚙️ ilCorSaRoNeRo",
+      "infoHash": "897efaf377095e5cdcb3fe50663789c3ecd5c864",
+      "fileIdx": 8,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|897efaf377095e5cdcb3fe50663789c3ecd5c864",
+        "filename": "Stranger Things (2016) - S04E01 - Chapter One The Hellfire Club (1080p NF WEB-DL x265 Silence).mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger Things S04E01 Chapter One The Hellfire Club 1080p NF WEB-DL DDP5 1\n👤 33 💾 3.09 GB ⚙️ ThePirateBay\n🇬🇧 / 🇯🇵 / 🇷🇺 / 🇮🇹 / 🇵🇹 / 🇪🇸 / 🇰🇷 / 🇨🇳 / 🇫🇷 / 🇩🇪 / 🇳🇱 / 🇵🇱 / 🇨🇿 / 🇭🇺 / 🇭🇷 / 🇺🇦 / 🇩🇰 / 🇸🇪 / 🇳🇴 / 🇹🇷 / 🇸🇦 / 🇮🇱 / 🇮🇩 / 🇲🇾 / 🇹🇭",
+      "infoHash": "d01a1c4575be251df2f48c3bdb2d235c9ba69bab",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|NTb",
+        "filename": "Stranger Things S04E01 Chapter One The Hellfire Club 1080p NF WEB-DL DDP5 1 x264-NTb.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger Things - Season 4 (Complete) - Mp4 x264 AC3 1080p\nStranger Things S04E01.mp4\n👤 31 💾 2.05 GB ⚙️ 1337x",
+      "infoHash": "408ea740cb094250d0c5390fc52e977e2ab3940f",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|408ea740cb094250d0c5390fc52e977e2ab3940f",
+        "filename": "Stranger Things S04E01.mp4"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger Things (2016-2025) Complete Series 1080p WebDL H265 AAC-AC3 5.1\nS04/Stranger Things - 4X01 - Chapter One The Hellfire Club.mkv\n👤 18 💾 2.05 GB ⚙️ 1337x",
+      "infoHash": "2bd1bf1d5a91e14c29de78b7b22b76b026a8920e",
+      "fileIdx": 23,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|2bd1bf1d5a91e14c29de78b7b22b76b026a8920e",
+        "filename": "Stranger Things - 4X01 - Chapter One The Hellfire Club.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger Things S01-05 (2016-2025) 1080p H265 AC3 5.1 ITA.ENG sub ita.eng Sp33dy94 MIRCrew\nStranger Things S04x01 Hellfire Club AC3 5.1 ITA.ENG 1080p H265 sub ita.eng Sp33dy94-MIRCrew.mkv\n👤 17 💾 1.83 GB ⚙️ ilCorSaRoNeRo\n🇬🇧 / 🇮🇹",
+      "infoHash": "96d768bb4f993bdf6afcf4c33863441bdfd00db7",
+      "fileIdx": 25,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|96d768bb4f993bdf6afcf4c33863441bdfd00db7",
+        "filename": "Stranger Things S04x01 Hellfire Club AC3 5.1 ITA.ENG 1080p H265 sub ita.eng Sp33dy94-MIRCrew.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger Things S04 1080p NF WEBRip DD 5.1 Atmos x265-edge2020\nStranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEBRip.DDP.Atmos.5.1.x265-edge2020.mkv\n👤 15 💾 2.22 GB ⚙️ 1337x",
+      "infoHash": "5f9263e5d9e5dca0dd8edbe8bf1d090ebd845fd8",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|5f9263e5d9e5dca0dd8edbe8bf1d090ebd845fd8",
+        "filename": "Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEBRip.DDP.Atmos.5.1.x265-edge2020.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger Things Season 1-4 S01-S04 1080p 10bit WEBRip 6CH x265 HEVC-PSA\nStranger.Things.S04.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA/Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv\n👤 15 💾 990.44 MB ⚙️ 1337x",
+      "infoHash": "d9ceec218d414b8a3ed380039f3d4e05d5def2ce",
+      "fileIdx": 25,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|d9ceec218d414b8a3ed380039f3d4e05d5def2ce",
+        "filename": "Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.10bit.WEBRip.6CH.x265.HEVC-PSA.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger Things - Stagione 04 (2022 ITA/ENG) [COMPLETA] [Pir8][1080p]\nStranger.Things.4x01.Capitolo.Uno.Il.Club.Del.Fuoco.Infernale.ITA.ENG.1080p.NFRip.AAC.x265-Pir8.mkv\n👤 10 💾 1022.02 MB ⚙️ ilCorSaRoNeRo\n🇬🇧 / 🇮🇹",
+      "infoHash": "50ef47b8e1b1dde57407176b809ba7510f274d8c",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|50ef47b8e1b1dde57407176b809ba7510f274d8c",
+        "filename": "Stranger.Things.4x01.Capitolo.Uno.Il.Club.Del.Fuoco.Infernale.ITA.ENG.1080p.NFRip.AAC.x265-Pir8.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger.Things.S04.MULTi.1080p.WEB.x264-FW\nStranger.Things.S04E01.MULTi.1080p.WEB.x264-FW.mkv\n👤 9 💾 3.41 GB ⚙️ Torrent9\nMulti Audio / 🇫🇷",
+      "infoHash": "675be54dac22b8af9943c1debae0638c455619d0",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|675be54dac22b8af9943c1debae0638c455619d0",
+        "filename": "Stranger.Things.S04E01.MULTi.1080p.WEB.x264-FW.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger Things S04 COMPLETE 1080p NF WEBRip DDP5 1 Atmos x264-TBD\nStranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEB-DL.DDP5.1.Atmos.x264-TBD[eztv.re].mkv\n👤 9 💾 3.09 GB ⚙️ EZTV",
+      "infoHash": "22bfb6459ddefae573731d6cab335eac5729cf95",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|22bfb6459ddefae573731d6cab335eac5729cf95",
+        "filename": "Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEB-DL.DDP5.1.Atmos.x264-TBD[eztv.re].mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Очень странные дела / Загадочные события / Stranger Things [S01-05] (2016-2025) BDRip-HEVC 1080p от RIPS CLUB | D P L A\nStranger Things S04/Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.mkv\n👤 8 💾 7.19 GB ⚙️ Rutor\n🇬🇧 / 🇷🇺 / 🇺🇦",
+      "infoHash": "922044d8a625fd54d1bb5661117265cbbb9dc98f",
+      "fileIdx": 25,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|922044d8a625fd54d1bb5661117265cbbb9dc98f",
+        "filename": "Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.mkv"
+      },
+      "sources": [
+        "tracker:udp://opentor.net:6969",
+        "tracker:http://retracker.local/announce",
+        "dht:922044d8a625fd54d1bb5661117265cbbb9dc98f",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "tracker:http://bt3.t-ru.org/ann?magnet",
+        "tracker:http://bt4.t-ru.org/ann?magnet"
+      ]
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger.Things.S04.Parte.1.iTALiAN.MULTi.1080p.WEB.x264-MeM.GP\nStranger.Things.S04E01.Capitolo.uno.Hellfire.Club.iTALiAN.MULTi.1080p.WEB.x264-MeM.GP.mkv\n👤 8 💾 3.43 GB ⚙️ ilCorSaRoNeRo\nMulti Audio / 🇬🇧 / 🇮🇹",
+      "infoHash": "563e91bed171b98b1bde5d74fc4c6279ddf637f2",
+      "fileIdx": 6,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|563e91bed171b98b1bde5d74fc4c6279ddf637f2",
+        "filename": "Stranger.Things.S04E01.Capitolo.uno.Hellfire.Club.iTALiAN.MULTi.1080p.WEB.x264-MeM.GP.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger Things S04E01 1080p WEB H264-PECULATE\n👤 8 💾 3.09 GB ⚙️ EZTV",
+      "infoHash": "25e4ec90b3af2cb7b62bf4ab610e1c0e9158070a",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|PECULATE",
+        "filename": "Stranger.Things.S04E01.1080p.WEB.H264-PECULATE[eztv.re].mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.REPACK.1080p.HEVC.x265\n👤 6 💾 1.12 GB ⚙️ ThePirateBay",
+      "infoHash": "5633d86b8a58203d8985035dcfdc33a752ff3b1e",
+      "fileIdx": 3,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|MeGusta",
+        "filename": "Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.REPACK.1080p.HEVC.x265-MeGusta.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger.Things.S04.COMPLETE.1080p.NF.WEB-DL.x265.10bit.SDR.DDP5.1.Atmos-TBD\nStranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEB-DL.DDP5.1.Atmos.HEVC-TBD.mkv\n👤 5 💾 1.99 GB ⚙️ ThePirateBay",
+      "infoHash": "0ebd8090584b365cf7c1414e0e4656972180fc34",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|0ebd8090584b365cf7c1414e0e4656972180fc34",
+        "filename": "Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEB-DL.DDP5.1.Atmos.HEVC-TBD.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p",
+      "title": "Stranger.Things.S04.Part.1.1080p.NF.WEBRip.DDP5.1.Atmos.x264-TBD\nStranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEB-DL.DDP5.1.Atmos.x264-TBD.mkv\n👤 5 💾 3.09 GB ⚙️ ThePirateBay",
+      "infoHash": "6aca4a5ba5b5bf77feac65ece2b54eb2e5f4a251",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|6aca4a5ba5b5bf77feac65ece2b54eb2e5f4a251",
+        "filename": "Stranger.Things.S04E01.Chapter.One.The.Hellfire.Club.1080p.NF.WEB-DL.DDP5.1.Atmos.x264-TBD.mkv"
+      }
+    }
+  ]
+}

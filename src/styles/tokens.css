@@ -1,0 +1,4 @@
+/* Ported verbatim from spikes/web-mockup/mockup.css (tokens + base reset). Do not restyle; keep class names. */
+:root{--bg:#141414;--ink:#fff;--muted:#a3a3a3;--dim:#777;--red:#e50914;--card:#1a1a1a;--line:#303030;--green:#46d369;--pad:56px;--radius:4px}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 "Netflix Sans","Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}button{font:inherit}

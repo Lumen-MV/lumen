@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "error": null,
+  "detail": "Torrent cache status retrieved successfully.",
+  "data": [
+    {
+      "name": "[Bitsearch.to] Spider-Man.No.Way.Home.2021.PROPER.2160p.UHD.BluRay.x265.10bit.HDR.DDP5.1.Atmos-RARBG",
+      "size": 9773641565,
+      "hash": "055585e26d3c8b3bb2c54b431cf8bf687e573b58",
+      "files": [
+        {
+          "id": 0,
+          "name": "Spider-Man.No.Way.Home.2021.PROPER.2160p.UHD.BluRay.x265.10bit.HDR.DDP5.1.Atmos-RARBG/RARBG.txt",
+          "size": 31,
+          "short_name": "RARBG.txt",
+          "mimetype": "text/plain"
+        },
+        {
+          "id": 1,
+          "name": "Spider-Man.No.Way.Home.2021.PROPER.2160p.UHD.BluRay.x265.10bit.HDR.DDP5.1.Atmos-RARBG/Spider-Man.No.Way.Home.2021.PROPER.2160p.UHD.BluRay.x265.10bit.HDR.DDP5.1.Atmos-RARBG.mkv",
+          "size": 9773641534,
+          "short_name": "Spider-Man.No.Way.Home.2021.PROPER.2160p.UHD.BluRay.x265.10bit.HDR.DDP5.1.Atmos-RARBG.mkv",
+          "mimetype": "video/x-matroska"
+        }
+      ]
+    },
+    {
+      "name": "Spider-Man No Way Home (2021) Extended Cut (1080p MA WEB-DL x265 Silence).mkv",
+      "size": 5946914434,
+      "hash": "0f9f8870f8ee579eb4d5a711789fecd54800356a",
+      "files": [
+        {
+          "id": 0,
+          "name": "Spider-Man No Way Home (2021) Extended Cut (1080p MA WEB-DL x265 HEVC 10bit EAC3 5.1 Silence)/Spider-Man No Way Home (2021) Extended Cut (1080p MA WEB-DL x265 Silence).mkv",
+          "size": 5946914434,
+          "short_name": "Spider-Man No Way Home (2021) Extended Cut (1080p MA WEB-DL x265 Silence).mkv",
+          "mimetype": "video/x-matroska"
+        }
+      ]
+    },
+    {
+      "name": "Marvel Cinematic Universe Collection 4K Remux",
+      "size": 1775052725233,
+      "hash": "0fb12e52afe5b882fd0efdfe301f25e19a32078f",
+      "files": [
+        {
+          "id": 35,
+          "name": "Marvel Cinematic Universe/Ant-Man (2015)/Ant-Man (2015) {imdb-tt0478970} [Remux-2160p][HDR10][TrueHD Atmos 7.1][HEVC]-FraMeSToR.mkv",
+          "size": 49053908336,
+          "short_name": "Ant-Man (2015) {imdb-tt0478970} [Remux-2160p][HDR10][TrueHD Atmos 7.1][HEVC]-FraMeSToR.mkv",
+          "mimetype": "video/x-matroska"
+        },
+        {
+          "id": 143,
+          "name": "Marvel Cinematic Universe/Ant-Man and the Wasp (2018)/Ant-Man and the Wasp (2018) {imdb-tt5095030} [Remux-2160p][HDR10][TrueHD Atmos 7.1][HEVC]-FraMeSToR.mkv",
+          "size": 43754866545,
+          "short_name": "Ant-Man and the Wasp (2018) {imdb-tt5095030} [Remux-2160p][HDR10][TrueHD Atmos 7.1][HEVC]-FraMeSToR.mkv",
+          "mimetype": "video/x-matroska"
+        },
+        {
+          "id": 63,
+          "name": "Marvel Cinematic Universe/Ant-Man and the Wasp Quantumania (2023)/Ant-Man and the Wasp Quantumania (2023) {imdb-tt10954600} [Remux-2160p Proper][HDR10][TrueHD Atmos 7.1][HEVC]-TRiToN.mkv",
+          "size": 52921788821,
+          "short_name": "Ant-Man and the Wasp Quantumania (2023) {imdb-tt10954600} [Remux-2160p Proper][HDR10][TrueHD Atmos 7.1][HEVC]-TRiToN.mkv",
+          "mimetype": "video/x-matroska"
+        },
+        {
+          "id": 119,
+          "name": "Marvel Cinematic Universe/Avengers Age of Ultron (2015)/Avengers Age of Ultron (2015) {imdb-tt2395427} [Remux-2160p][HDR10][TrueHD Atmos 7.1][HEVC]-FraMeSToR.mkv",
+          "size": 51313252724,
+          "short_name": "Avengers Age of Ultron (2015) {imdb-tt2395427} [Remux-2160p][HDR10][TrueHD Atmos 7.1][HEVC]-FraMeSToR.mkv",
+          "mimetype": "video/x-matroska"
+        }
+      ]
+    },
+    {
+      "name": "Spider-Man.No.Way.Home.2021.EXTENDED.MULTi.1080p.WEB.H264-EXTREME",
+      "size": 8815064526,
+      "hash": "0fc02e02a9a0d6602e1fe7490b8a780ac571d9bf",
+      "files": [
+        {
+          "id": 0,
+          "name": "[ Torrent911.cc ] Spider-Man.No.Way.Home.2021.EXTENDED.MULTi.1080p.WEB.H264-EXTREME/[ Torrent911.cc ] Spider-Man.No.Way.Home.2021.EXTENDED.MULTi.1080p.WEB.H264-EXTREME.mkv",
+          "size": 8815064526,
+          "short_name": "[ Torrent911.cc ] Spider-Man.No.Way.Home.2021.EXTENDED.MULTi.1080p.WEB.H264-EXTREME.mkv",
+          "mimetype": "video/x-matroska"
+        }
+      ]
+    },
+    {
+      "name": "Spider-Man.No.Way.Home.2021.4K.HDR.DV.2160p.BDRemux Ita Eng x265-NAHOM.mkv",
+      "size": 62052104049,
+      "hash": "1458d57d0fb7b645508b01e5096fa058e952578f",
+      "files": [
+        {
+          "id": 0,
+          "name": "Spider-Man.No.Way.Home.2021.4K.HDR.DV.2160p.BDRemux Ita Eng x265-NAHOM/info.txt",
+          "size": 334,
+          "short_name": "info.txt",
+          "mimetype": "text/plain"
+        },
+        {
+          "id": 1,
+          "name": "Spider-Man.No.Way.Home.2021.4K.HDR.DV.2160p.BDRemux Ita Eng x265-NAHOM/NH .png",
+          "size": 164937,
+          "short_name": "NH .png",
+          "mimetype": "image/png"
+        },
+        {
+          "id": 2,
+          "name": "Spider-Man.No.Way.Home.2021.4K.HDR.DV.2160p.BDRemux Ita Eng x265-NAHOM/Spider-Man.No.Way.Home.2021.4K.HDR.DV.2160p.BDRemux Ita Eng x265-NAHOM.mkv",
+          "size": 62051938778,
+          "short_name": "Spider-Man.No.Way.Home.2021.4K.HDR.DV.2160p.BDRemux Ita Eng x265-NAHOM.mkv",
+          "mimetype": "video/x-matroska"
+        }
+      ]
+    }
+  ]
+}

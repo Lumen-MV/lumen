@@ -1,0 +1,594 @@
+{
+  "streams": [
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Человек-паук: Нет пути домой / Spider-Man: No Way Home [2021 UHD BDRemux 2160p HDR10 Dolby Vision] Dub + Original (Eng) + Sub (Rus Eng)\n👤 119 💾 61.58 GB ⚙️ Rutracker\n🇬🇧 / 🇷🇺",
+      "infoHash": "164c92640788e2c2e14c4fa68c3cfaadb2f50eb9",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay REMUX|10bit|DV|HDR",
+        "filename": "Человек-паук Нет пути домой.2021.UHD.Blu-Ray.Remux.2160p.mkv"
+      },
+      "sources": [
+        "tracker:http://bt4.t-ru.org/ann?magnet",
+        "dht:164c92640788e2c2e14c4fa68c3cfaadb2f50eb9",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:udp://opentor.net:6969",
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "tracker:http://bt3.t-ru.org/ann?magnet"
+      ]
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Spiderman No Way Home 2021 Bluray 2160p AV1 10bit HDR AC3 5.1-UH\n👤 104 💾 6.19 GB ⚙️ 1337x",
+      "infoHash": "812d59a1e25ae153d62f74122192a7c1c67ef1a4",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|10bit|HDR",
+        "filename": "Spiderman.No.Way.Home.2021.Bluray.2160p.AV1.10bit.AC3.5.1-UH.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV",
+      "title": "Spider-Man No Way Home 2021 UHD BluRay 2160p TrueHD Atmos 7 1 DV HEVC REMUX-FraMeSToR\n👤 96 💾 61.5 GB ⚙️ 1337x",
+      "infoHash": "b33fb184e7dda13b2dcce83853bd5a63028c2ca9",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay REMUX|hevc|DV",
+        "filename": "Spider-Man.No.Way.Home.2021.UHD.BluRay.2160p.TrueHD.Atmos.7.1.DV.HEVC.REMUX-FraMeSToR.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Spider-Man - No Way Home (2021) (2160p BluRay x265 HEVC 10bit HDR AAC 7.1 Tigole) [QxR]\n👤 96 💾 7.95 GB ⚙️ 1337x",
+      "infoHash": "f6571a1613b48f3c67bdef0eb7b406d3307d2a7f",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|hevc|10bit|HDR",
+        "filename": "Spider-Man - No Way Home (2021) (2160p BluRay x265 10bit HDR Tigole).mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV",
+      "title": "Spider-Man- No Way Home 2021 UHD BluRay 2160p DV HEVC TrueHD Atmos 7.1 x265-E\n👤 72 💾 25.96 GB ⚙️ 1337x",
+      "infoHash": "697ef9cc83a6bbcd9fc0e4c263240f12c79ee3ba",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|hevc|DV",
+        "filename": "Spider-Man- No Way Home 4K 2021.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Человек-паук: Нет пути домой / Spider-Man: No Way Home [2021 WEBRip 2160p HDR10] [IMAX] [Bravia Core] Dub + 2x MVO + Ukr + Original (Eng) + Sub (Rus Ukr Eng)\n👤 71 💾 30.41 GB ⚙️ Rutracker\n🇬🇧 / 🇷🇺 / 🇺🇦",
+      "infoHash": "1c1e46af5022416eca0c731a0f1827641989be78",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|WEBRip|10bit|HDR",
+        "filename": "Человек-паук Нет пути домой.2021.IMAX.WEBRip.2160p.mkv"
+      },
+      "sources": [
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "dht:1c1e46af5022416eca0c731a0f1827641989be78",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:udp://opentor.net:6969",
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "tracker:http://bt3.t-ru.org/ann?magnet",
+        "tracker:http://bt4.t-ru.org/ann?magnet"
+      ]
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Человек-паук: Нет пути домой / Spider-Man: No Way Home [2021 WEB-DL 2160p HDR10] [IMAX] [Bravia Core] Dub + 2x MVO + Ukr + Original (Eng) + Sub (Rus Ukr Eng)\n👤 71 💾 94.96 GB ⚙️ Rutracker\n🇬🇧 / 🇷🇺 / 🇺🇦",
+      "infoHash": "bfa1876c36d34e2ab530aa47fd31fd34687c2994",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|WEB-DL|10bit|HDR",
+        "filename": "Человек-паук Нет пути домой.2021.IMAX.WEB-DL.2160p.mkv"
+      },
+      "sources": [
+        "tracker:http://bt3.t-ru.org/ann?magnet",
+        "dht:bfa1876c36d34e2ab530aa47fd31fd34687c2994",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:udp://opentor.net:6969",
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "tracker:http://bt4.t-ru.org/ann?magnet"
+      ]
+    },
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Spider-Man: No Way Home (2021) 4K Ultra HD BluRay 10-bit DV HDR Atmos MUSHR00M\n👤 51 💾 26.88 GB ⚙️ ThePirateBay",
+      "infoHash": "c4e62b106a32383aa813b054c24edb107912c4c4",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|hevc|10bit|DV|HDR",
+        "filename": "Spider-Man No Way Home 2021 2160p UHD BDRip HEVC 10bit DV HDR TrueHD.7.1 Atmos MUSHR00M.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Spider-Man: Bez domova / Spider-Man: No Way Home (2021)(CZ/EN)[2160p][HDR/DV]\n👤 50 💾 6.5 GB ⚙️ EXT\n🇬🇧 / 🇨🇿",
+      "infoHash": "3c638da9a68a881f175006573c0f8ac971a3f7ea",
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|DV|HDR"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV | HDR10+ | HDR",
+      "title": "Человек-паук: Нет пути домой / Spider-Man: No Way Home [2021 WEB-DL 2160p HDR10 HDR10+ Dolby Vision] [Hybrid] [Расширенная версия / Extended Cut] Dub + Original (Eng) + Sub (Rus Eng)\n👤 40 💾 28.2 GB ⚙️ Rutracker\n🇬🇧 / 🇷🇺",
+      "infoHash": "c2125be916a84f622c125ad1a9d05c7fe925dc25",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|WEB-DL|10bit|DV|HDR10+|HDR",
+        "filename": "Человек-паук Нет пути домой.WEB-DL.2160p.mkv"
+      },
+      "sources": [
+        "tracker:http://bt3.t-ru.org/ann?magnet",
+        "dht:c2125be916a84f622c125ad1a9d05c7fe925dc25",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:udp://opentor.net:6969",
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "tracker:http://bt4.t-ru.org/ann?magnet"
+      ]
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Spider-Man.No.Way.Home.2022.2160p.UHD.BluRay.TrueHD.7.1.Atmos.HD\n👤 39 💾 24.13 GB ⚙️ ThePirateBay",
+      "infoHash": "f3bc8c4cf077a35f1e6c495df8d22f812451074f",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|x265|HDR",
+        "filename": "Spider-Man.No.Way.Home.2022.2160p.UHD.BluRay.TrueHD.7.1.Atmos.HDR.x265-EVO.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Spider-Man.No.Way.Home.2021.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ\n👤 26 💾 21.4 GB ⚙️ RARBG",
+      "infoHash": "18ee5f372e17f2943dcbc3e046557d0e83ffaffa",
+      "fileIdx": 2,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|x265|10bit|HDR",
+        "filename": "Spider-Man.No.Way.Home.2021.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Marvel Cinematic Universe Collection 4K Remux\nSpider-Man No Way Home (2021)/Spider-Man No Way Home (2021) {imdb-tt10872600} [Remux-2160p][DV HDR10][TrueHD Atmos 7.1][HEVC]-FraMeSToR.mkv\n👤 22 💾 61.21 GB ⚙️ 1337x",
+      "infoHash": "0fb12e52afe5b882fd0efdfe301f25e19a32078f",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|hevc|10bit|DV|HDR",
+        "filename": "Spider-Man No Way Home (2021) {imdb-tt10872600} [Remux-2160p][DV HDR10][TrueHD Atmos 7.1][HEVC]-FraMeSToR.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Человек-паук: Нет пути домой / Spider-Man: No Way Home [2021 UHD BDRip 2160p HDR10 Dolby Vision] Dub + 2x MVO + Ukr + Original (Eng) + Sub (Rus Ukr Eng)\n👤 22 💾 24.4 GB ⚙️ Rutracker\n🇬🇧 / 🇷🇺 / 🇺🇦",
+      "infoHash": "daeb3a4c929078e8348acbed58d572d685bd62db",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BDRip|10bit|DV|HDR",
+        "filename": "Человек-паук Нет пути домой.2021.UHD.BDRip.2160p.mkv"
+      },
+      "sources": [
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "dht:daeb3a4c929078e8348acbed58d572d685bd62db",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:udp://opentor.net:6969",
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "tracker:http://bt3.t-ru.org/ann?magnet",
+        "tracker:http://bt4.t-ru.org/ann?magnet"
+      ]
+    },
+    {
+      "name": "Torrentio\n4k DV",
+      "title": "Spider-Man.No.Way.Home.2021.2160p.BluRay.REMUX.HEVC.TrueHD.7.1.Atmos-FraMeSToR\n👤 20 💾 61.5 GB ⚙️ RARBG",
+      "infoHash": "90e8be9013fa101b68478da3ac62c3d20a84b59b",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay REMUX|hevc|DV",
+        "filename": "Spider-Man.No.Way.Home.2021.UHD.BluRay.2160p.TrueHD.Atmos.7.1.DV.HEVC.REMUX-FraMeSToR.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Marvel Cinematic Universe Collection 2160p Bluray Remux (2008-2025)\nSpider-Man No Way Home (2021)/Spider-Man No Way Home (2021) {imdb-tt10872600} [Remux-2160p][DV HDR10][TrueHD Atmos 7.1][HEVC]-FraMeSToR.mkv\n👤 18 💾 61.21 GB ⚙️ 1337x",
+      "infoHash": "5d6fc4202bea45abe3514881beba76149dad9d30",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay REMUX|hevc|10bit|DV|HDR",
+        "filename": "Spider-Man No Way Home (2021) {imdb-tt10872600} [Remux-2160p][DV HDR10][TrueHD Atmos 7.1][HEVC]-FraMeSToR.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Marvel Cinematic Universe IMAX Enhanced 4k Collection (2008-2025) (2160p WEB-DL DSNP DV HDR10 HEVC TrueHD 7.1)\nSpider-Man No Way Home (2021)/Spider-Man No Way Home (2021) {tmdb-634649} {edition-Extended Cut IMAX} [WEBDL-2160p][DV HDR10Plus][EAC3 Atmos 5.1][x265]-doin.mkv\n👤 17 💾 40.62 GB ⚙️ 1337x",
+      "infoHash": "591104f3ee23d9f15335645158b2baa4ddf5d98e",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|WEB-DL|hevc|10bit|DV|HDR",
+        "filename": "Spider-Man No Way Home (2021) {tmdb-634649} {edition-Extended Cut IMAX} [WEBDL-2160p][DV HDR10Plus][EAC3 Atmos 5.1][x265]-doin.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Spider-Man.No.Way.Home.2021.4K.HDR.DV.2160p.BDRemux Ita Eng x265-NAHOM\n👤 17 💾 57.79 GB ⚙️ ilCorSaRoNeRo\n🇬🇧 / 🇮🇹",
+      "infoHash": "1458d57d0fb7b645508b01e5096fa058e952578f",
+      "fileIdx": 2,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay REMUX|x265|DV|HDR",
+        "filename": "Spider-Man.No.Way.Home.2021.4K.HDR.DV.2160p.BDRemux Ita Eng x265-NAHOM.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Spider-Man.No.Way.Home.2021.IMAX.4K.HDR.DV.2160p.WEBDL Ita Eng x265-NAHOM\n👤 16 💾 80.37 GB ⚙️ 1337x\n🇬🇧 / 🇮🇹",
+      "infoHash": "c8d30b10506151d34cc15fd2a44a22ab7f442545",
+      "fileIdx": 4,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|WEB-DL|x265|DV|HDR",
+        "filename": "Spider-Man.No.Way.Home.2021.IMAX.4K.HDR.DV.2160p.WEBDL Ita Eng x265-NAHOM.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Spider-Man.No.Way.Home.Extended.Version.2022.2160p.WEB-DL.DD5.1.HDR.H.265-EVO[TGx]\n👤 13 💾 26.91 GB ⚙️ 1337x",
+      "infoHash": "82f2ebc28417de36e43a56ae717bce1ee1f7c3e1",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|WEB-DL|h265|HDR",
+        "filename": "Spider-Man.No.Way.Home.Extended.Version.2022.2160p.WEB-DL.DD5.1.HDR.H.265-EVO.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Spider-Man.No.Way.Home.2021.bluray.hdr.2160p.av1.7.1.opus.vmaf99-Rosy\n👤 12 💾 7.62 GB ⚙️ TorrentGalaxy",
+      "infoHash": "a851eaede251c108146bf9abdd84b8a8d48b6340",
+      "fileIdx": 3,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|HDR",
+        "filename": "Spider-Man.No.Way.Home.2021.bluray.hdr.2160p.av1.7.1.opus.vmaf99-Rosy.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Spider Man No Way Home 2021 4K Extended WEBRip HDR 2160p DTS DD+ 5.1 Atmos-MgB\n👤 12 💾 22.82 GB ⚙️ ThePirateBay",
+      "infoHash": "1f4de00a6c644411180facebc3e55b540aafaa75",
+      "fileIdx": 17,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|WEBRip|x265|HDR",
+        "filename": "Spider Man No Way Home 2021 4K Extended WEBRip DV HDR 2160p DTS DD+ 5.1 Atmos x265-MgB.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Spider-Man.No.Way.Home.2021.PROPER.2160p.UHD.BluRay.x265.10bit.HDR.DDP5.1.Atmos-RARBG\n👤 12 💾 9.1 GB ⚙️ RARBG",
+      "infoHash": "055585e26d3c8b3bb2c54b431cf8bf687e573b58",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|x265|10bit|HDR",
+        "filename": "Spider-Man.No.Way.Home.2021.PROPER.2160p.UHD.BluRay.x265.10bit.HDR.DDP5.1.Atmos-RARBG.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Homem-Aranha - Sem Volta Para Casa 2022 2160p 4K HDR BluRay DUAL 5.1\n👤 11 💾 13.81 GB ⚙️ Comando\nDual Audio / 🇬🇧 / 🇵🇹",
+      "infoHash": "bcfc9450eb7efd7c7304e754afeaf4ed3b266603",
+      "fileIdx": 3,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|x265|HDR",
+        "filename": "Homem-Aranha - Sem Volta Para Casa 2022 2160p 4K HDR x265 BluRay DUAL 5.1.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV",
+      "title": "Spider-Man No Way Home (2021) 2160p UHD BluRay REMUX DV HEVC [TR-EN] TrueHD Atmos 7.1-TUR\n👤 8 💾 61.9 GB ⚙️ EXT\n🇬🇧 / 🇹🇷",
+      "infoHash": "7ff66ead498d6cb4dbca4d5144094a8ba6a5e6db",
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay REMUX|hevc|DV"
+      }
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Spider-Man.No.Way.Home.2021.IMAX.2160p.10bit.HDR.WEBRip.8CH.x265.HEVC-PSA\n👤 8 💾 4.97 GB ⚙️ 1337x",
+      "infoHash": "30fab949ccb15468d4ec8b6436f2806e392ebc91",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|WEBRip|hevc|10bit|HDR",
+        "filename": "Spider-Man.No.Way.Home.2021.IMAX.2160p.10bit.HDR.WEBRip.8CH.x265.HEVC-PSA.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k DV | HDR",
+      "title": "Spider-Man.No.Way.Home.2021.Eng.Fre.Ger.Ita.Por.Rus.Spa.Cze.Hun.Pol.Slo.Tha.Tur.Hin.Tam.Tel.2160p.BluRay.Remux.HDR.DV.HEVC.DTS-HD.MA.Atmos-SGF\n👤 6 💾 81.72 GB ⚙️ TorrentGalaxy\n🇬🇧 / 🇷🇺 / 🇮🇹 / 🇵🇹 / 🇪🇸 / 🇫🇷 / 🇩🇪 / 🇮🇳 / 🇵🇱 / 🇨🇿 / 🇭🇺 / 🇹🇷",
+      "infoHash": "36d6b30323391f9168f7a89581cbb62d75d0a770",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay REMUX|hevc|DV|HDR",
+        "filename": "Spider-Man.No.Way.Home.2021.Eng.Fre.Ger.Ita.Por.Rus.Spa.Cze.Hun.Pol.Slo.Tha.Tur.Hin.Tam.Tel.2160p.BluRay.Remux.HDR.DV.HEVC.DTS-HD.MA.Atmos-SGF.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Spider-Man.No.Way.Home.2021.IMAX.2160p.BCORE.WEB-DL.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ\n👤 6 💾 87.11 GB ⚙️ TorrentGalaxy",
+      "infoHash": "4f183b597fe5d2922502fa324e8f109e2fd621f4",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|WEB-DL|x265|10bit|HDR",
+        "filename": "Spider-Man.No.Way.Home.2021.IMAX.2160p.BCORE.WEB-DL.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k HDR",
+      "title": "Spider-Man-No.Way.Home.EXTENDED.2021.iTA-ENG.WEBDL.2160p.HDR.x265-CYBER.mkv\n👤 5 💾 29.3 GB ⚙️ 1337x\n🇬🇧 / 🇮🇹",
+      "infoHash": "c7a0e3ed9116b17c996094e99073e7ea751c605c",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|WEB-DL|x265|HDR",
+        "filename": "Spider-Man-No.Way.Home.EXTENDED.2021.iTA-ENG.WEBDL.2160p.HDR.x265-CYBER.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k",
+      "title": "Spider-Man.No.Way.Home.2021.2160p.4K.BluRay.x265.10bit.AAC5.1-LAMA\n👤 510 💾 6.93 GB ⚙️ 1337x",
+      "infoHash": "57a6ea045c5a80e116b6f3eb00c3c0ba45ffdd7a",
+      "fileIdx": 6,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|x265|10bit",
+        "filename": "Spider-Man.No.Way.Home.2021.2160p.4K.BluRay.x265.10bit.AAC5.1-LAMA.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k",
+      "title": "Spider-Man: No Way Home 2021 2160p BluRay\n👤 100 💾 6.93 GB ⚙️ YTS",
+      "infoHash": "66fdd73dcb8c6fd157b7754949a8851e53467f7c",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|x265|10bit",
+        "filename": "Spider-Man.No.Way.Home.2021.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k",
+      "title": "Человек-паук: Нет пути домой / Spider-Man: No Way Home [2021 WEB-DL 2160p SDR] Dub + Original (Eng) + Sub (Rus Eng)\n👤 39 💾 21.87 GB ⚙️ Rutracker\n🇬🇧 / 🇷🇺",
+      "infoHash": "b5eaa2b882ef94090dbb49b2288cd3c943f2c71f",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|WEB-DL",
+        "filename": "Человек-паук Нет пути домой.2021.WEB-DL.2160p.SDR.mkv"
+      },
+      "sources": [
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "dht:b5eaa2b882ef94090dbb49b2288cd3c943f2c71f",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:udp://opentor.net:6969",
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "tracker:http://bt3.t-ru.org/ann?magnet",
+        "tracker:http://bt4.t-ru.org/ann?magnet"
+      ]
+    },
+    {
+      "name": "Torrentio\n4k",
+      "title": "Человек-паук: Нет пути домой / Spider-Man: No Way Home [2021 WEB-DL 2160p SDR] [Расширенная версия / Extended Cut] Dub + Original (Eng) + Sub (Rus Eng)\n👤 28 💾 28.29 GB ⚙️ Rutracker\n🇬🇧 / 🇷🇺",
+      "infoHash": "22296ad7d155ce391a0200c70a923206f7fc74f1",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|WEB-DL",
+        "filename": "Человек-паук Нет пути домой.WEB-DL.2160p.SDR.mkv"
+      },
+      "sources": [
+        "tracker:http://bt4.t-ru.org/ann?magnet",
+        "dht:22296ad7d155ce391a0200c70a923206f7fc74f1",
+        "tracker:udp://tracker.opentrackr.org:1337/announce",
+        "tracker:udp://open.stealth.si:80/announce",
+        "tracker:udp://tracker.torrent.eu.org:451/announce",
+        "tracker:udp://open.demonii.com:1337/announce",
+        "tracker:udp://exodus.desync.com:6969/announce",
+        "tracker:udp://tracker.skynetcloud.site:6969/announce",
+        "tracker:udp://tracker.qu.ax:6969/announce",
+        "tracker:udp://tracker.ducks.party:1984/announce",
+        "tracker:udp://tracker.nyaa.vc:6969/announce",
+        "tracker:udp://explodie.org:6969/announce",
+        "tracker:udp://tracker-udp.gbitt.info:80/announce",
+        "tracker:udp://tracker.corpscorp.online:80/announce",
+        "tracker:udp://retracker01-msk-virt.corbina.net:80/announce",
+        "tracker:udp://tracker.bittor.pw:1337/announce",
+        "tracker:udp://tracker.gmi.gd:6969/announce",
+        "tracker:http://tracker.dler.org:6969/announce",
+        "tracker:http://tracker.dler.com:6969/announce",
+        "tracker:udp://tracker2.dler.org:80/announce",
+        "tracker:http://tracker.renfei.net:8080/announce",
+        "tracker:udp://tracker.farted.net:6969/announce",
+        "tracker:udp://opentor.net:6969",
+        "tracker:http://bt.t-ru.org/ann?magnet",
+        "tracker:http://bt2.t-ru.org/ann?magnet",
+        "tracker:http://bt3.t-ru.org/ann?magnet"
+      ]
+    },
+    {
+      "name": "Torrentio\n4k",
+      "title": "Spider-Man.No.Way.Home.2021.2160p.BluRay.SDR.[Eng-Hin-Tel-Tam].10bit.HQ.HEVC.By.DCR\n👤 24 💾 8.4 GB ⚙️ 1337x\n🇬🇧 / 🇮🇳",
+      "infoHash": "ca238e26b89e4ca753a9a85fba8833f66dcc0361",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay|hevc|10bit",
+        "filename": "Spider-Man.No.Way.Home.2021.2160p.BluRay.SDR.[Eng-Hin-Tel-Tam].10bit.HQ.HEVC.By.DCR.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k",
+      "title": "Spider-Man.No.Way.Home.2021.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT\n👤 12 💾 70.95 GB ⚙️ RARBG",
+      "infoHash": "35d8b9167025854b7cc55663321f5061e3005766",
+      "fileIdx": 1,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|BluRay REMUX|hevc",
+        "filename": "Spider-Man.No.Way.Home.2021.2160p.BluRay.REMUX.HEVC.DTS-HD.MA.TrueHD.7.1.Atmos-FGT.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k",
+      "title": "SpiderMan - No Way Home (2021) Extended 2160p H265 10bit Ita Eng Ac3 5.1 Sub Ita NUEng SnakeSPL MIRCrew\n👤 9 💾 3.83 GB ⚙️ TorrentGalaxy\n🇬🇧 / 🇮🇹",
+      "infoHash": "74189963566b1fbd943318bc50c8f045c024ebb6",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|h265|10bit",
+        "filename": "SpiderMan - No Way Home (2021) Extended 2160p H265 10bit  Ita Eng Ac3 5.1 Sub Ita NUEng SnakeSPL MIRCrew.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n4k",
+      "title": "Spider-Man.No.Way.Home.2021.4K.HEVC.10bit.SDR.HYBRID.Dolby.Digital.Plus.7.1~COD3D\n👤 5 💾 7.27 GB ⚙️ EXT",
+      "infoHash": "6bd7d0ac58bae9df1fc22eeb5751036974216e93",
+      "behaviorHints": {
+        "bingeGroup": "torrentio|4k|hevc|10bit"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p HDR",
+      "title": "Spiderman No Way Home 2021 Bluray 1080p AV1 10bit HDR AC3 5.1-UH\n👤 272 💾 3.54 GB ⚙️ ThePirateBay",
+      "infoHash": "56da9a1557b04d9318aada13c1f0d647cda5c5b6",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|BluRay|10bit|HDR",
+        "filename": "Spiderman.No.Way.Home.2021.Bluray.1080p.AV1.10bit.AC3.5.1-UH.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p DV | HDR",
+      "title": "SpiderMan No Way Home 2021 1080p BluRay DoVi HDR10 TrueHD Atmos 7 1 x265-Ge\n👤 36 💾 6.93 GB ⚙️ ThePirateBay\n🇬🇧 / 🇵🇹 / 🇪🇸 / 🇰🇷 / 🇨🇳 / 🇫🇷 / 🇹🇭",
+      "infoHash": "fbf563a6964df09c8bc286203b637bc6c221e4dd",
+      "fileIdx": 0,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|BluRay|x265|10bit|DV|HDR",
+        "filename": "SpiderMan No Way Home 2021 1080p BluRay DoVi HDR10 TrueHD Atmos 7 1 x265-GeneMige.mkv"
+      }
+    },
+    {
+      "name": "Torrentio\n1080p HDR",
+      "title": "Spider-Man - Complete Movie Collection (2002-2022) 1080p.HEVC.HDR10.1920x800.x265. DTS-HD MA 5.1 eng.subs [BluRay] {dezzie}\n2022. Spider-Man No Way Home.1920x800.BluRay.x265 DTS-HD.MA {dezzie}.mkv\n👤 25 💾 14.06 GB ⚙️ TorrentGalaxy",
+      "infoHash": "6921ecd1a4101111be5957ef1d7e332d5e95c8eb",
+      "fileIdx": 8,
+      "behaviorHints": {
+        "bingeGroup": "torrentio|1080p|BluRay|hevc|10bit|HDR",
+        "filename": "2022. Spider-Man No Way Home.1920x800.BluRay.x265 DTS-HD.MA {dezzie}.mkv"
+      }
+    }
+  ]
+}

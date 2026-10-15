@@ -1,0 +1,80 @@
+# Production stack on the VM: Caddy (HTTPS, headers) → Next.js app (SQLite + subs in ./data).
+#   cp .env.example .env && edit; then: docker compose up -d --build   (infra/deploy.sh does this + backup + migrate + health check)
+# Local check without a domain: APP_DOMAIN=localhost docker compose up → https://localhost (internal CA, curl -k).
+# The app container runs as uid 1000 (`node`); `data-init` makes the bind-mounted ./data 1000:1000 mode 700 before it starts.
+services:
+  data-init:
+    image: alpine:3
+    # a Windows / macOS bind mount cannot change ownership — that only matters on the Linux VM, so never block the app on it
+    command: ["sh", "-c", "chown 1000:1000 /data && chmod 700 /data || echo 'data-init: ownership not applied (non-Linux bind mount?)'"]
+    volumes:
+      - ./data:/data
+
+  app:
+    build: .
+    image: lumen
+    restart: unless-stopped
+    env_file: .env
+    depends_on:
+      data-init:
+        condition: service_completed_successfully
+    # pinned here so a stray NODE_ENV/LUMEN_SCENARIOS in .env can never flip the container into dev mode
+    environment:
+      NODE_ENV: production
+      LUMEN_SCENARIOS: "0"
+      # Caddy rewrites x-forwarded-for; only then may the app trust it (rate limit, TorBox user_ip)
+      TRUST_PROXY: "1"
+      # direct (default, VM egress ≈ 0) or proxy (CDN piped through the VM, key never visible) — see README
+      STREAM_MODE: ${STREAM_MODE:-direct}
+      DATA_DIR: /data
+      HOSTNAME: 0.0.0.0
+      HOST: 0.0.0.0
+      PORT: "3000"
+    volumes:
+      - ./data:/data
+    expose:
+      - "3000"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    deploy:
+      resources:
+        limits:
+          memory: 700M
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on:
+      app:
+        condition: service_healthy
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN:-localhost}
+      ACME_EMAIL: ${ACME_EMAIL:-admin@example.com}
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+      - caddy_logs:/var/log/caddy
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  caddy_data:
+  caddy_config:
+  caddy_logs:

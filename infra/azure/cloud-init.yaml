@@ -1,0 +1,75 @@
+#cloud-config
+# Lumen VM bootstrap (Ubuntu 24.04): Docker Engine + compose plugin, ufw (22 from the deploy PC only, 80/443 open),
+# fail2ban, unattended upgrades, a deploy user in the docker group, 2 GB swap (B1ms has 2 GB RAM), app directory
+# /opt/lumen owned by that user with ./data owned by uid 1000 (the app container's user) mode 700.
+# Used by infra/azure/create-vm.sh (--custom-data; it fills __SSH_PUBLIC_KEY__ and __UFW_SSH_RULE__).
+# Takes ~2 minutes after first boot; check: cloud-init status --wait
+package_update: true
+package_upgrade: true
+packages:
+  - ca-certificates
+  - curl
+  - gnupg
+  - ufw
+  - fail2ban
+  - unattended-upgrades
+  - rsync
+  - sqlite3
+
+users:
+  - name: lumen
+    groups: [sudo, docker]
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    lock_passwd: true
+    ssh_authorized_keys:
+      - "__SSH_PUBLIC_KEY__"
+
+write_files:
+  - path: /etc/apt/keyrings/.keep
+    content: ""
+  - path: /etc/fail2ban/jail.local
+    content: |
+      [sshd]
+      enabled = true
+      maxretry = 5
+      bantime = 1h
+  - path: /etc/apt/apt.conf.d/51unattended-lumen
+    content: |
+      Unattended-Upgrade::Automatic-Reboot "true";
+      Unattended-Upgrade::Automatic-Reboot-Time "04:30";
+  - path: /etc/sysctl.d/60-lumen.conf
+    content: |
+      vm.swappiness=10
+      net.core.default_qdisc=fq
+      net.ipv4.tcp_congestion_control=bbr
+
+runcmd:
+  # Docker Engine + compose plugin from Docker's repository
+  - install -m 0755 -d /etc/apt/keyrings
+  - curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+  - chmod a+r /etc/apt/keyrings/docker.asc
+  - sh -c 'echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" > /etc/apt/sources.list.d/docker.list'
+  - apt-get update
+  - apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  - systemctl enable --now docker
+  # 2 GB swap so a build or a burst never OOMs the 2 GB box
+  - fallocate -l 2G /swapfile && chmod 600 /swapfile && mkswap /swapfile && swapon /swapfile
+  - sh -c 'echo "/swapfile none swap sw 0 0" >> /etc/fstab'
+  - sysctl --system
+  # firewall: SSH from the deploy PC + HTTP(S) only (HTTP is needed for the ACME challenge / redirect to HTTPS)
+  - ufw default deny incoming
+  - ufw default allow outgoing
+  - __UFW_SSH_RULE__
+  - ufw allow 80/tcp
+  - ufw allow 443/tcp
+  - ufw allow 443/udp
+  - ufw --force enable
+  - systemctl enable --now fail2ban
+  # app directory: sources owned by the deploy user, data by the container user (uid 1000 = node in the image)
+  - mkdir -p /opt/lumen/data
+  - chown -R lumen:lumen /opt/lumen
+  - chown -R 1000:1000 /opt/lumen/data
+  - chmod 700 /opt/lumen/data
+
+final_message: "Lumen VM ready after $UPTIME seconds - next: infra/deploy.sh from your PC"

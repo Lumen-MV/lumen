@@ -1,0 +1,16 @@
+# Files that run on the Linux VM / inside Docker must never pick up CRLF from a Windows checkout (core.autocrlf=true):
+# a CRLF shell script fails at `#!/usr/bin/env bash\r`, cloud-init YAML and the Caddyfile are parsed on the VM as well.
+* text=auto
+*.sh text eol=lf
+*.cjs text eol=lf
+*.mjs text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+Caddyfile text eol=lf
+Dockerfile text eol=lf
+.dockerignore text eol=lf
+.env.example text eol=lf
+*.png binary
+*.jpg binary
+*.ico binary
+*.sqlite binary
